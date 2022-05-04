@@ -1,0 +1,117 @@
+﻿
+.locations {
+    width: 100%;
+    }
+
+
+.locations .colcontentblockleft {
+    float: left;
+    padding: 15px 0 0 0;
+    width: 300px;
+    min-height: 550px;
+    _height: 550px;
+    } 
+
+.locations .colcontentblockright {
+    float: right;
+    padding: 15px 0 0 0;
+    width: 612px;
+    min-height: 550px;
+    _height: 550px;
+    } 
+
+/* MAP STYLES
+----------------------------------------*/
+.googlemap{
+    width: 100%; 
+    height: 650px; 
+    position: relative; 
+    clear: both; 
+    display: block;
+    border: 1px solid #9A9A9A;
+    padding-top: 20px;
+}
+
+.mapinfobox{
+    position:relative;
+    width:220px;
+    font-family: sans-serif;
+    font-size:13px;
+    line-height: 24px;
+    color:white;
+    background-color: #1E7C9A;
+    box-shadow: 3px 3px 10px #000;
+    font-weight: 400; 
+    z-index: 4000;
+    }
+    
+.mapinfoboxclose{
+    width:245px;
+    height:18px;
+    text-align:right;
+    padding-right:10px;
+    zoom: 1;
+    filter: alpha(opacity=50;);
+    opacity: 0.5;
+    }
+    
+.mapinforboxclosebttn{
+    position:absolute;
+    top: 2px;
+    right: 6px;
+    }
+    
+.mapinforboxclosebttn a{
+    text-decoration:none;
+    color:White;
+    }
+    
+.mapinfoboxcontent{
+    width: 225px;
+    min-height: 30px;
+    padding: 0 14px 20px 14px;
+    line-height: 16px;
+    }
+    
+.mapinfoboxcontent span{
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 16px;
+    letter-spacing: .07em;
+    }
+    
+.mapinfoboxlink{
+    position:absolute;
+    left:0;
+    bottom: 10px;
+    text-transform: uppercase;  
+    width: 200px;
+    }
+    
+.mapinfoboxlink a, .mapinfoboxlink a:hover{
+    color:white;
+    font-size: 12px !important;
+    text-decoration: none; 
+    padding: 0 0 0 14px; 
+    z-index: 200;
+    letter-spacing: .1em !important;
+    }
+
+    
+.mapinfoboxarrow{
+    position: absolute;
+    left: 105px;
+    bottom: -10px;
+    width: 22px;
+    height: 22px;
+    background-color: #1E7C9A;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    box-shadow: 7px -7px 10px rgba(0,0,0,0.6); 
+    z-index: 199;
+    }	
+
+

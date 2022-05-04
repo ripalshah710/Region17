@@ -1,0 +1,1 @@
+powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command "& { Import-Module '.\src\packages\psake.4.9.0\tools\psake\psake.psm1'; Invoke-psake '.\default.ps1' %1; if ($lastexitcode -ne 0) {Write-Host -Object ('The key that was pressed was: {0}' -f [System.Console]::ReadKey().Key.ToString()); } }" 

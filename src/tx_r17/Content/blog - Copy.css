@@ -1,0 +1,294 @@
+﻿
+
+/* BLOG NAV - VERTICAL 
+----------------------------------------*/
+
+.subnavgrid .blognavtitle {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: .05em;
+    display: block;
+    font-size: 12px;
+    padding: 0 0 0 9px;
+    background-color: #17627B;
+    line-height: 24px;
+    }
+
+.subnavgrid .blognav {
+    width: 100%;
+    padding-bottom: 20px;
+    }
+
+.blognav a {
+    position:relative;
+    display: block;
+    font-weight: 300; 
+    color: #ffffff; 
+    background-color: rgb(30,124,154);
+    font-size: 14px; 
+    text-decoration: none;
+    padding: 5px 5px 6px 9px;
+    margin: 0;
+    border-top: 1px solid #ffffff;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    }
+
+.blognav a:last-child {
+    border-bottom: 1px solid #ffffff;
+    }
+
+.blognav a:hover {
+    color: #ffffff; 
+    background-color: rgb(40,140,170);
+    }
+  
+.blognav a.activeSub {
+    color: #ffffff;
+    background-color: #F13A01;
+    padding: 9px 5px 10px 9px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    margin: 0;
+    }
+    
+.blognav a.activeSub:hover {
+    background-color: #0F2F53;
+    }
+
+/* BLOG LIST
+----------------------------------------*/
+.bloglist {
+    width: 100%;
+    clear: both;
+    padding: 0 0 0 0;
+     }
+
+.bloglist h2 {
+     display: block;
+     font-weight: 300;
+     color: #1E7C9A;
+     font-size: 28px;
+     line-height: 30px;
+     padding: 2px 0 0 0;
+     margin: 0;
+     }
+
+/* BLOG POSTS
+----------------------------------------*/
+.bloglist .entry {
+    display: block;
+    padding: 10px 0 12px 0;
+    border-bottom: 1px solid #9A9A9A;
+    
+    }  
+              
+.bloglist .entry .title, .entry .title a {
+    display: block;
+    font-weight: 400;
+    color: #205867;
+    width: 95%;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+     }
+ 
+.bloglist .entry .title a:hover {
+     color: #1E7C9A;
+     }
+ 
+.bloglist .entry .date {
+     display: block;
+     padding: 4px 0 2px 0;
+     font-weight: 300;
+     color: #c00000;
+     font-size: 18px;
+     line-height: 20px;
+     }
+ 
+ .bloglist .entry .description {
+     padding: 5px 0 0 0;
+     display: block;
+     font-weight: 400;
+     color: #333333;
+     font-size: 14px;
+     line-height: 20px;
+     }
+
+ .bloglist .entry .link a {
+     display: block;
+     padding: 10px 0 0 0;
+     color: #0000EE; 
+     text-decoration: underline;
+     }
+
+ .bloglist .entry .link a:hover {
+     color: #1E7C9A; 
+     }
+
+ /* DIVIDERS
+----------------------------------------*/      
+.blogpostsdivide, .postdivide {
+    height: 1px;
+    background-color: #e4e4e4;
+    margin: 4px 0 4px 0;
+    }
+
+    
+.postdivide {
+    margin: 10px 0 5px 0;
+    }  
+     
+/* BLOG POST
+----------------------------------------*/
+.pagetitle h2 {
+    font-size: 32px !important;
+    line-height: 38px !important;
+    font-weight: 300 !important;
+    color: #333333;
+    text-transform: none !important; 
+    margin: 0;
+    }
+
+.post {
+    clear: both;
+    padding: 0 0 0 0;
+    width: 97%;
+    }
+
+ .post .date {
+    display: block;
+    padding: 0 0 0 0;
+    font-weight: 300;
+    color: #c00000;
+    font-size: 20px;
+    line-height: 22px;
+    }   
+
+.post .title h1  {
+    display: block;
+    padding: 0 0 6px 0;
+    font-weight: 400;
+    color: #1E7C9A;
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #9A9A9A;
+     }
+     
+
+
+/* RETURN LINK
+----------------------------------------*/ 
+.returnblogposts {
+    position: absolute;
+    top: 14px;
+    right: 30px;
+    }
+   
+.returnblogposts .link a{
+    position: relative;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    color: #1E7C9A;
+    font-size: 14px;
+    text-decoration: none;
+    }
+
+.returnblogposts .link a:hover {
+    color: #333333;
+    }
+    
+       
+    
+     
+/* BLOG TAGS
+----------------------------------------*/
+.tags a {
+    padding: 2px 4px;
+    display: inline;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ffffff !important;
+    background-color: #1E7C9A;
+    text-decoration: none !important;
+    margin-right: 1px;
+    -webkit-transition: background-color .5s ease;
+    -moz-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+    }
+
+.tags a:hover {
+    background-color: #205867 !important;
+    -webkit-transition: background-color .5s ease;
+    -moz-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+    }
+    
+/* BLOG PAGGING
+----------------------------------------*/ 
+.blogpagging {
+    font-size: 16px;
+    color: #666666;
+    font-weight: 300;
+    }
+
+   
+.blogpagging .older {
+    float: left; 
+    cursor: pointer; 
+    padding: 18px 0 0 0;
+    }
+ 
+ .blogpagging .older:before, .blogpagging .latest:after {
+    font-family: 'df-icomoon';
+    font-size: 14px;
+    vertical-align: middle;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 5px 0 5px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    }
+   
+.blogpagging .latest {
+    float: right; 
+    cursor: pointer; 
+    padding: 18px 0 0 0;
+    }
+    
+.blogpagging .latest:after {
+    content: "\e6ab";
+    }
+    
+.blogpagging .older:before {
+    content: "\e6aa";
+    }
+
+.blogpagging .latest:hover, .blogpagging .older:hover {
+    color: #000000; 
+    }
+
+.rssfeed {
+    position: absolute;
+    top: 16px;
+    right: 0
+}

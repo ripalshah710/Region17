@@ -1,0 +1,631 @@
+﻿/* ----------------------------------------------------------------*/
+/* Grid between 768-1003px (mediaqueries)
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+/*@media only screen and (min-width: 768px) and (max-width: 1003px) {*/
+@media only screen and (min-width: 480px) and (max-width: 1003px) {
+
+
+body {
+    background-image: none;
+    background-color: #ffffff;
+}
+
+.hidefrommobile {
+    display: none;
+}
+
+#leftMenu {
+    display: none !important;
+}
+
+/* RESPONSIVE SUB PARENT TITLE - 768-1003px
+----------------------------------------*/
+.pagetitle h1 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 300;
+    }
+   
+/* RESPONSIVE BASE CONTAINER & GRID WIDTH - 768-1003px
+----------------------------------------------------*/
+    #basecontainer {
+        clear: both;
+        width: 100%;
+        position: absolute;
+    }
+
+.basegridwidth {
+    width: 100%;
+    min-width: 748px; 
+    max-width: 983px;
+    box-shadow: none;
+    }
+    
+.contentwidth {
+    width: 98%;
+    min-width: 708px;
+    max-width: 983px;
+    }
+    
+/* RESPONSIVE HEADER - 768-1003px
+----------------------------------------------------*/
+ .header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 60px;
+    z-index: 100;
+    border-bottom: 1px solid #9A9A9A;  
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    }
+
+    #summerhead {
+        background-image: url("../lib/standard/r17header_iPad.png") !important;
+        /*height: 100px;*/
+        /*position: relative;
+        background-repeat: no-repeat;*/
+        /*background-size: contain;
+        background-color: #ffffff;*/
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+
+.logo {
+    position: absolute; 
+    top: 15px; 
+    left: 0; 
+    z-index: 101;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    }
+
+.logo img {
+    /*width: 100px;*/
+    height: 45px !important;
+    width: auto !important;
+    }
+ 
+/* RESPONSIVE MAIN NAV SHOW/HIDE - 768-1003px 
+----------------------------------------------------*/
+.navd, .utilitynav, .subnavvisible, .iconlist, .unselectable, .fontchangetext, .headersearch {
+    display: none !important;
+    }
+
+header, .navr {
+    display: block;
+    }
+
+.navr {
+    z-index: 20000;
+    position: relative;
+    }
+/* RESPONSIVE BUTTON - 768-1003px
+-------------------------------------------------------*/  
+.menu-btn{
+    top: 8px;
+    right: 10px;
+	width: 50px;
+	height: 50px;
+    }
+
+.menu-btn:before{
+    top: 0;
+    right: 0;
+    line-height: 50px;
+    font-size: 17px;
+    height: 50px;
+    width: 50px;
+    }
+    
+/* RESPONSIVE MENU - 768-1003px
+-------------------------------------------------------*/ 
+.menu-title .title a {
+    display: block;
+    padding: 38px 5px 0 10px;
+    font-size: 20px;
+    }
+
+/* RESPONSIVE SUB SELECT DROPDOWN - 480-767px
+--------------------------------------------------*/
+.subnavdropdown {
+    clear: both;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #9A9A9A;
+    margin-bottom: 10px;
+}
+
+.subnavdropdown select {
+    width: 100%;
+    padding: 4px;
+    color: rgb(30,124,154);
+    font-size: 16px;
+}
+
+
+/* RESPONSIVE CONTENT AREAS & GRIDS - 768-1003px
+--------------------------------------------------*/     
+.contentgrid {
+    width: 100%;
+    } 
+
+.contentarea {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    }
+    
+.contentarea .contentblock {
+    padding: 15px 0 0 0;
+    width: 100%;
+    min-height: 100px;
+    _height: 100px;
+    } 
+
+.contentarea .colcontentblock {
+    float: left;
+    padding: 15px 0 0 0;
+    width: 100%;
+    min-height: 100px;
+    _height: 100px;
+    } 
+
+.contentarea .colcontentblockspacer {
+    float: none;
+    clear: both;
+    width: 16px;
+    } 
+
+.colcontentblockleft {
+    float: none;
+    clear: both;
+    padding: 15px 0 0 0;
+    width: 21%;
+    min-height: 100px;
+    _height: 100px;
+    } 
+
+.colcontentblockright {
+    float: none;
+    clear: both;
+    padding: 15px 0 0 0px;
+    width: 76%;
+    min-height: 100px;
+    _height: 100px;
+    } 
+
+
+/* LIST PAGE - 768-1003px
+----------------------------------------*/
+.subiconnav {
+    clear: both;
+    padding: 0 0 8px 0;
+    margin-bottom: 10px;
+}
+
+.iconmobilelist {
+    clear: both;
+
+}
+
+.iconmobilelist a {
+    clear: both;
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #9A9A9A;
+    text-decoration: none;
+    color: rgb(40,140,170);
+    font-size: 16px;
+
+}
+
+.iconmobilelist a:hover {
+    color: #000000;
+}
+
+
+a:hover.tooltips span {
+  visibility: hidden !important;
+}
+
+.iconlist {
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.iconnavdropdown {
+    display: none;
+}
+
+
+.icon {
+    float: left;
+    display: inline-block;
+    width: 32%;
+    height: 220px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 200px;
+    height: auto;
+}
+       
+/* RESPONSIVE SUB PARENT TITLE - 768-1003px
+----------------------------------------*/
+.subparenttitle {
+    top: 45px;
+    padding: 0;
+    }
+
+.subparenttitle h1 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 100;
+    padding: 0 0 0 0;
+    margin: 0;
+    letter-spacing: .03em;
+    } 
+          
+/* RESPONSIVE FOOTER GRID - 768-1003px
+----------------------------------------------------*/
+#footergrid {
+    height: 90px;
+}
+
+.footergridleft {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.footergridright {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.footergridmennu {
+    padding: 2px;
+}
+
+
+.footergridmennu a {
+    padding: 0 10px;
+    }
+
+.footergridmennu a:last-child {
+    border-right: none;
+    }
+    
+/* RESPONSIVE FOOTER - 768-1003px
+----------------------------------------------------*/ 
+#footer {
+    height: 100px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+
+.top {
+    clear: both;
+    padding-top: 16px;
+    }
+    
+.bottom {
+    clear: both;
+    padding-top: 12px;
+    } 
+
+/* RESPONSIVE EVENTS LIST LEFT COLUMN - 768-1003px
+----------------------------------------------------*/
+.events .eventframe {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+ 
+/* RESPONSIVE HOME CONTENT AREA GRID - 768-1003px
+----------------------------------------------------*/
+.homegrid .contentarea .colcontentblockleft {
+    clear: both;
+    float: none;
+    width: 100%;
+    padding: 15px 0 0 0;
+    } 
+
+.homegrid .contentarea .colcontentblockright {
+    clear: both;
+    float: none;
+    width: 100%;
+    } 
+
+/* RESPONSIVE HOME TOP GALLERY - 768-1003px
+----------------------------------------------------*/
+.hometopgallery {
+    clear: both;
+    width: 655px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.hometopgallery .gallerycontainer {
+    width: 655px;
+    height: 360px !important;
+    margin: 0 auto;
+    }
+
+.hometopgallery .gallerycontainer ul {
+    width: 655px;
+    height: 318px;
+}
+
+.hometopgallery #slides {
+    height: 360px !important;
+    z-index: 11;
+}
+
+/* RESPONSIVE HOME MID GALLERY - 768-1003px
+----------------------------------------------------*/
+.gallerycenterblock {
+    width: 642px;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+    } 
+
+.homemidgallery {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0 30px 0;
+}
+
+.homemidgallery .gallerycontainermid {
+    width: 655px;
+    height: 200px;
+    margin: 0 auto;
+    }
+
+.homemidgallery .gallerycontainermid ul {
+    width: 650px !important;
+    height: 200px;
+}
+
+.homemidgallery #slidesmid {
+    width: 650px !important;
+    height: 200px !important;
+    z-index: 11;
+}
+
+.homemidgallery #slidesmid img {
+    width: 650px !important;
+    height: 200px !important;
+}
+
+/* RESPONSIVE HOME QUICK NAV - 768-1003px
+----------------------------------------------------*/
+.mobilehomequick {
+    clear: both;
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid #9A9A9A;
+
+}
+
+.mobilehomequicktitle {
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.quickmobilenav {
+    clear: both;
+    display: block;
+}
+
+.quickmobilenav a {
+    clear: both;
+    display: block;
+    padding: 6px 0;
+}
+
+/* RESPONSIVE REGION 4 OVERWRITES - 768-1003px
+----------------------------------------------------*/
+.storysmall div:first-child {
+    width: 100% !important;
+}
+
+.story div:first-child {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+    #pageheader {
+        padding-left: 10px;
+        padding-right: 10px;
+        /*/*border: 1px solid black;*/
+        width: 100%;
+        font-size: 18px !important;
+        /*border: 1px solid black;*/;
+        height: 50px;
+        color: rgb(0, 0, 0);
+        line-height: 50px;
+        padding-left: 10px;
+        /*font-size: 12px;*/
+        font-weight: bold;
+        /*font-size: x-small;*/
+        float: left;
+        /*background-image: url(../lib/img/tableheadbkgrnd-blue.gif) !important;
+    background-repeat: repeat-x;*/
+        background-color: #058284 !important;
+        color: #fff;
+    }
+
+ #searchbox {
+	padding-left: 10px;
+	/*/*border: 1px solid black;*/;*/
+	width: 100%;
+    font-size:  small;
+}
+
+    .shoppingCart {
+        visibility: visible !important; 
+    }
+
+    .leftIndent {
+        padding-left:100px;
+        display:block;
+    }
+
+    #txtSearch {
+        width: 500px;
+    }
+
+    #searchGridDeskTop {
+        display: none;
+    }
+
+    #searchGridMobile {
+        visibility: visible;
+    }
+
+    .conferenceDropDownMobile {
+        display: visible;
+    }
+
+    .conferenceTextBoxMobile {
+        display: none;
+    }
+
+    .conferenceLabelMobile {
+        display: none;
+    }
+    .CalendarDesktop {
+        visibility: visible;
+    }
+
+    .CalendarMobile {      
+        display: none;
+    }
+
+    .mainBodyBold {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        font-weight: bold;
+        color: black;
+    }
+
+    .smallFont {
+        font-size: medium;
+    }
+
+    .smallestFont {
+        font-size: small;
+    }
+
+    .mainBodyBold {
+         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+
+    .upcomingLink {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        color: darkblue !important;
+        text-decoration: underline !important;
+    }
+
+    #showPrinter {
+        display:none;
+    }
+
+    .btn-R17Blue {
+        background-color: #11347d !important;
+        color: white;
+    }
+
+        .btn-R17Blue:hover {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+        .btn-R17Blue:focus {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+    .btn-R17Grey {
+        background-color: #11347d !important;
+        color: white;
+    }
+
+        .btn-R17Grey:hover {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+        .btn-R17Grey:focus {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+    span {
+        color: black !important;
+    }
+
+        span.mainBodyBold {
+            color: darkred !important;
+        }
+
+    #ctl00_mainBody_lblTPESS {
+        font-size: 14px !important;
+    }
+
+    .mainBodySmall {
+        font-size: 14px !important;
+    }
+
+    th {
+        font-size: 14px !important;
+    }
+
+    td {
+        font-size: 14px !important;
+    }
+
+    #ctl00_mainBody_btnGroupRegister {
+        display: none !important;
+    }
+
+    a.calendarlink {
+        font-size: 12px !important;
+    }
+
+    .breakoutheader {
+        font-size: 20px !important;
+    }
+
+    #headerFont {
+        color: white !important;
+    }
+
+    span.CalendarTimeText {
+        padding-right: 20px !important;
+    }
+} 

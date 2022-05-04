@@ -1,0 +1,134 @@
+
+.galleryfullcenterblock {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gallerycontainerfull {
+    width: 100%;
+    max-width: 984px;
+    min-height: 300px;
+    margin: 0 auto;
+    }
+
+
+.slides-navigation {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 46%;
+    width: 100%;
+    }
+
+.slides-navigation a.next:before, .slides-navigation a.prev:before {
+    font-size: 30px;
+    }
+    
+.slides-pagination {
+    display: none;
+    }
+
+
+
+/* ANIMATED BANNER
+===================================================================== */
+#slidesfull {
+    position: relative;
+    z-index: 100;
+    }
+
+#slidesfull .slides-container {
+    display: none;
+    }
+
+#slidesfull .scrollable {
+    *zoom: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    }
+    
+#slidesfull .scrollable:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.slides-navigation { /* STYLE IS RESPONSIVE */ }
+
+.slides-navigation a {
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    }
+
+.homefullgallery .slides-navigation a.next:before, .slides-navigation a.prev:before {
+    color: #C61131;
+    text-shadow: 0 1px 0 #ffffff;
+    font-family: 'df-icomoon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    }
+    
+.slides-navigation a.prev {
+    left: 5px;
+    }
+
+.slides-navigation a.prev:before {
+    content: "\e62f";
+    }
+
+.slides-navigation a.next {
+    right: 5px;
+    }
+
+.slides-navigation a.next:before {
+    content: "\e629";
+    }
+
+.slides-pagination { /* STYLE IS RESPONSIVE */ }
+
+.slides-pagination a {
+    background-color: #ffffff;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *display: inline;
+    overflow: hidden;
+    }
+
+.slides-pagination a.current {
+    background-color: #999999;
+    }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1003px) {
+.gallerycontainerfull {
+    max-width: 1003px;
+    min-height: 230px !important;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.gallerycontainerfull {
+    max-width: 767px;
+    min-height: 130px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+.gallerycontainerfull {
+    max-width: 479px;
+    min-height: 90px !important;
+    }
+
+}

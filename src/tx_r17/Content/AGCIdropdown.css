@@ -1,0 +1,105 @@
+﻿    
+#nav {
+    margin: 0;
+	padding: 0 0 0 10px;
+	list-style: none;
+	position: relative;
+    height: 46px;
+    background-color: #69C;
+}
+
+
+/* MAIN NAV CSS DROPDOWN MENU
+---------------------------------------- */
+#nav, #nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	}
+
+#nav li.level1nav {
+    float: left;
+    }
+	
+#nav li.level1nav a {
+    position: relative;
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    color: #ffffff;  
+    background-color: #69C;
+    font-size: 15px;
+    line-height: 46px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: .01em;
+    z-index: 5;
+	}
+	
+#nav li.level1nav a:hover {
+	color: #ffffff;
+    background-color: #336699;
+    text-shadow: none !important;
+    z-index: 1001;
+	}
+
+#nav li.level1nav:hover > a {
+	color: #ffffff;
+    background-color: #336699 !important;
+    text-shadow: none !important;
+    z-index: 1001;
+	}
+
+#nav li.level1nav a.selected, #nav li.level1nav a.selected:hover {
+	color: #ffffff !important;
+    background-color: #336699 !important;
+	}
+	
+#nav li.level1nav .reveal {
+	margin: 0 0 0 0;
+	_margin: 0; /*IE6 only*/
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 46px;
+	z-index: 1;    
+	background-color: #336699 !important;
+	border-top: none;
+	}
+
+#nav li.level1nav:hover > .reveal {
+	opacity: 1;
+	visibility: visible;
+	margin: 0 0 0 0;
+    width: 250px;
+    background-color: #336699 !important;
+    box-shadow: 1px 1px 1px #999999;
+	}
+
+.reveal a {
+    opacity: 1;
+    display: block;
+    clear: both;
+    color: #cccccc !important;
+    padding: 5px 15px 5px 15px !important;
+    text-align: left;
+    width: 250px;
+    font-weight: 400 !important;
+    margin: 0 0 0 0 !important;
+    background-color: transparent !important;
+    text-decoration: none;
+    text-shadow: none !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    }
+    
+.reveal a:hover {
+    opacity: 1;
+    color: #ffffff !important;
+    }
+
+.reveal a:last-child {
+    padding-bottom: 16px !important;
+    border-bottom: none;
+    }
+

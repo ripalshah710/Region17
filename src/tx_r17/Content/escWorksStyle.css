@@ -1,0 +1,574 @@
+/*CSS sources to be used within the site:
+<LINK rel="stylesheet" type="text/css" href="Home_files/escWorksStyle.css" NEW Master CSS file created from Original CSS files below 
+
+masterStyle.css, pageTitle.css, menu.css, calendar.css, shoppingCart.css,
+page-styles.css merged below 
+
+End CSS sources */
+
+
+/* Global Styles - most come from former masterStyle.css, masterPage.master, or default.aspx, or masterPage.master*/
+
+
+/* From MasterStyle css */
+.error {
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*per TSB Suggestions to use H1-H3 */
+h1 {
+	display: inline;
+	font-size: 1.75em;
+	margin-before: 0.67em;
+	margin-after: 0.67em;
+	margin-start: 0;
+	margin-end: 0; 
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-before: 0.83em;
+	margin-after: 0.83em;
+	margin-start: 0;
+	margin-end: 0;
+	font-weight: bold;
+	display:inline;
+}
+
+h3 {
+	font-size: 1.25em;
+	margin-before: 1em;
+	margin-after: 1em;
+	margin-start: 0;
+	margin-end: 0;
+	font-weight: bold;
+	display:inline;
+}
+
+h4 {
+	font-size:1em;
+	font-style:normal;
+	font-weight: normal;
+	display:inline;
+}
+
+h5 {
+	font-size:.75em;
+	font-style:normal;
+	font-weight:bold;
+}
+
+h6 {
+	font-size:.5em;
+	font-style:normal;
+	font-weight:bold;
+}
+/*end TSB Suggestions*/
+
+/* Welcome Section just above Search (size only) AND color ONLY on Upcoming Sessions Dates,
+ Contact us if you .... text, and Part of the outer table border
+*//*
+.mainBody {
+	font-family: Verdana, sans-serif; font-size: 10pt;
+} */
+
+/* Session Detail text */
+.mainBodySmall {
+	font-size:  10pt;
+} 
+
+/*Upcoming Sessions section DATES*/
+.mainBodyBold {
+	font-family: Verdana, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+} 
+
+h2.mainBodyBold 
+{
+    font-family: Verdana, sans-serif;
+    font-size: 1.5em;
+    margin-before: 0.83em;
+    margin-after: 0.83em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+    display:inline;
+}
+
+
+/*color of the #Items link, reg hist/cert sections */
+.link {
+	color: blue;
+} 
+
+/*???*/
+a.PageLink {
+	color: rgb(51, 51, 51);
+	font-family: Verdana, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+
+/*???*/
+a.PageLink:hover {
+	color: rgb(51, 102, 153);
+	text-decoration: none;
+}
+
+/* dashed line divider between "Home" and Title*/
+.divider {
+	border-bottom-color: #2f4c72;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.heading {
+	font-size:h1;
+	font-weight: bold;
+}
+.tableHeading {
+	color: white;
+	font-weight: bold;
+	background-color: dimgray;
+}
+
+/*Past Sessions tab (Reg History/Cert sections)*/
+.tableAltRow {
+	background-color: #d3d3d3;
+}
+
+/*Account information form - controls display of the form on the My Account page, PD Record page, etc.*/
+.formInput {
+	border: 1px solid gray;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+/*Same as td below, but is overridden by td (last in rules)*/
+body {
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+/* Quicklinks font family,page footer font family and size; possibly row 2 font size Controls all text on Conference display table */
+td {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+/* "Upcoming Sessions" text (Heading)*/
+.upcomingSessionHeader {
+    text-align: left;
+    /*color: #8eaa43 !important;*/
+    color: darkred !important;
+    font-family: Verdana, sans-serif;
+}
+
+/* Controls appearance of breakout session headings */
+.breakoutheader {
+	text-align: left;
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	background-color: rgb(101, 154, 102);
+}
+
+/* Controls the color of the cells displayed in the Conference Breakout view (alt row should mean alternate color, but all gray) */
+.breakoutAltRow {
+	background-color: rgb(204, 204, 204);
+}
+
+/* "more sessions..." text */
+.upcomingSessionFooter {
+    text-align: right;
+    /*color: #8eaa43 !important;*/
+    color: darkred !important;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+
+.formdnldlabel {
+	color: black;
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color:#2f4c72;
+}
+#recEventsTable .header {
+	font-weight: bold;
+	background-color: rgb(192, 192, 192);
+}
+#recEventsTable {
+	border: 1px dashed gray;
+}
+#recEventsTable td {
+	padding-top: 5px;
+}
+
+/* Session summary page - yellow banner detailing registration information */
+.sessionSummary {
+	font-size: 10pt;
+	font-style: italic;
+	background-color: rgb(255, 255, 153);
+	padding-top:8px;
+	padding-bottom:8px;
+}
+div#escWorksSimpleSearch table {
+	border: 1px solid rgb(102, 102, 102);
+	width: 100%;
+	margin-bottom: 4px;
+	border-collapse: collapse;
+}
+div#escWorksSimpleSearch .header {
+	font-size: small;
+	font-weight: bold;
+	border-bottom-color: rgb(102, 102, 102);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-color: rgb(233, 221, 188);
+}
+div#escWorksSimpleSearch .header td {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+div#escWorksSimpleSearch a {
+	border: currentColor;
+	color: rgb(162, 86, 52);
+	text-decoration: none;
+}
+div#escWorksSimpleSearch a:hover {
+	border: currentColor;
+	color: rgb(126, 67, 41);
+	text-decoration: underline;
+}
+div#escWorksSimpleSearch a:visited {
+	color: rgb(162, 86, 52);
+}
+div#escWorksSimpleSearch td {
+	vertical-align: top;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+div#escWorksSimpleSearch .sessiondescription {
+	color: rgb(170, 170, 170);
+}
+div#escWorksSimpleSearch .headerAscending {
+	background: url("..imgsort_asc.gif") no-repeat right;
+}
+div#escWorksSimpleSearch .headerDescending {
+	background: url("..imgsort_desc.gif") no-repeat right;
+}
+
+/* Registration Form link */
+a.uploadLink {
+	color: #b8cadd;
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+a.uploadLink :hover {
+    color: white;
+}
+
+
+/*Left Menu Styles - including 'QuickLinks', signin/signout button, Nav levels 1 & 2, PDF Download txt and Reg Form link */
+
+
+/*Main menu font (not Quick Links, sign in button, pdf downloads and Registration link) link decoration, size, font family*/
+div#escWebMenu a {
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* Menu links (not Quick Links, Sign In Button, Pdf downloads and registration link) - controls bullets, padding, font family and size - seems to be competing with above selector */
+
+/*Quicklinks controlled by 'MasterPage.master*/
+
+div#escWebMenu li {
+	padding: 2px;
+	color: white !important;
+	font-family: Verdana, sans-serif;
+	font-size:15px;
+	text-decoration: none;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+
+/* Similar to above; maybe consolidate (list item and unordered list)*/
+div#escWebMenu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	text-align: left;
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/*controls Hello User Welcome Messge font color, size*/
+.welcomeMsg 
+{
+    font-family: Verdana, Sans-Serif;
+    color: #ffffff;
+    font-size:15px;
+}
+
+/* Controls top level links in menu (Home, Search Options, My Account, Contact Us, BUT NOT PDF Downloads) */
+.navLevel0 a {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    color: white !important;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Menu Links hover color (except Registration Form)*/
+div#escWebMenu li :hover {
+	color: white;
+	}
+
+/* Controls top level links in menu (Home, Search Options, My Account, Contact Us, BUT NOT PDF Downloads) */
+.navLevel1 a {
+    color: white !important;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+.menuItemSelected {
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+    font-family: Verdana, Geneva, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+#navCenter {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#navCenter img {
+	
+}
+
+/* PDF Downloads label (being overridden somewhere: font color probably by inline style); */
+.mlabel {
+    text-align: Left;
+    color: #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: h3;
+    font-weight: bold;
+    padding-left: 7px;
+    text-decoration: none;
+}
+
+
+/*Banner Section Styles - including 'escWorks' banner area, horizontal spacer, and shopping cart/divider --
+see 'MasterPage.master' */
+
+
+
+/* Shopping Cart; originally located in pageTitle.css
+Home, Registration Cart, and Item Count above search */
+.pageTitleText {
+	 
+	 font-weight: bold;
+	 color: black;
+	 font-size: h1;
+	 
+	 }
+
+h3.pageTitleText 
+{
+    font-size: 1.75em;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+    display:inline;
+}
+
+h1.pageTitleText 
+{
+    color: Black;
+    font-size:h1;
+}
+
+
+
+/*Page Title and Search Styles (originally from page-styles.css)*/
+
+/* Title above search box (default text: "Welcome to Professional Development Online Registration"; text is controlled in Default.aspx;
+Also contains gradient background or image background information; originally from page-styles.css
+ */
+#pageheader {
+    padding-left: 10px;
+    /*/*border: 1px solid black;*/;
+    width: 100%;
+    font-size: small;
+    /*border: 1px solid black;*/;
+    height: auto;
+    color: rgb(0, 0, 0);
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-size: x-small;
+    float: left;
+    /*background-image: url(../lib/img/tableheadbkgrnd-blue.gif) !important;
+    background-repeat: repeat-x;*/
+    background-color: #058284;
+    color: #fff;
+}
+
+
+/* Search box appearance including size, borders, font (originally in page-styles.css); Text controlled in Default.aspx;*/
+#searchbox {
+	/*padding-left: 10px;*/
+	/*border: 1px solid black;*/;
+	width: 100%;
+    font-size:  small;
+}
+
+
+/*Marketing Section Styles */
+
+
+/*Contact Us and Upcoming Sessions Styles -- see 'Default.aspx'*/
+
+
+/*Footer Section Styles - including Powered by escWorks section */  
+
+
+
+/* From shoppingCart CSS  formats the cart borders*/
+
+.cartLeftBorder {
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.cartRightBorder {
+	text-align: right;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.cartMiddleBorder {
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.cartStart {
+	border-bottom-color: blue;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+.cartEnd {
+	border-top-color: blue;
+	border-top-width: 3px;
+	border-top-style: solid;
+}
+
+
+/* Calendar Formatting */
+
+.mainTable {
+	border: 1px solid rgb(153, 153, 153);
+}
+.tableCell {
+	height: 60px;
+	color: rgb(79, 42, 10);
+	font-size: 7pt;
+}
+.tableCellHeader {
+	color: blue;
+	font-size: 8pt;
+}
+.notInMonth {
+	background-color: gray;
+}
+.calendarLink {
+	
+}
+td.tableCell li {
+	list-style: none;
+	padding-top: 4px;
+}
+td.tableCell a {
+	color: blue;
+	padding-right: 12px;
+	font-weight: bold;
+}
+td.tableCell li a {
+	padding-right: 0px;
+	font-weight: normal;
+	text-decoration: none;
+}
+td.tableCell li a:hover {
+	text-decoration: underline;
+}
+.calendarCurrentDate {
+	background-color: rgb(255, 255, 153);
+}
+.calendarTitle {
+	font-size:14pt;
+	font-weight: bold;
+}
+
+h3.calendarTitle {
+    font-size: 1.17em;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+    display:inline;
+}
+/*code for Skip To Content Link*/
+.skip-to-content-link {
+	left: 50%;
+	position: absolute;
+	transform: translateY(-100%);
+}
+
+.skip-to-content-link {
+	/*background: #e77e23;*/
+	height: 30px;
+	left: 50%;
+	padding: 8px;
+	position: absolute;
+	transform: translateY(-100%);
+	transition: transform 0.3s;
+}
+
+	.skip-to-content-link:focus {
+		transform: translateY(0%);
+	}
+
+    

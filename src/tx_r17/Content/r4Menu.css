@@ -1,0 +1,267 @@
+﻿.r4Menu *{margin:0px;padding:0px;border-width:0px;outline-width:0px;outline-style:none;}
+.r4Menu *:active,.r4Menu *:hover,.r4Menu *:focus,.r4Menu *:visited {outline-width:0px;outline-style:none;}
+.r4Menu table{border-collapse:collapse;border-spacing:0px;}
+
+
+.unselectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor:default;
+	-webkit-touch-callout:none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust:none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color / shadow */
+}
+
+
+.r4Menu,.r4Menu > bar,.r4Menu > .content {
+	position:absolute;
+	width:100%;
+	top:0px;left:0px;
+	
+	backface-visibility:hidden;
+	perspective:1000;	
+
+	-webkit-backface-visibility:hidden;
+	-webkit-perspective:500;
+	
+	-ms-backface-visibility:hidden;
+	-ms-perspective:500;
+	
+	-moz-backface-visibility:hidden;
+	-moz-perspective:500;
+	
+}
+
+.r4Menu{
+	position:relative;
+}
+
+/* bar */
+
+.r4Menu > .bar {
+	background-color:rgb(30,124,154);
+	height:46px;
+	line-height:46px;
+}
+
+.r4Menu h1,
+.r4Menu a {
+	vertical-align:middle;
+	font-family:Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	font-smooth:always;
+	font-weight:normal;
+	text-align:left;
+	color:white;
+	font-size:1em;
+	width:auto;
+z-index:10000;
+}
+
+
+
+.r4Menu a {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:none;
+}
+	
+.r4Menu > .bar a {
+	float:left;
+	padding-left:8px;
+	padding-right:8px;
+	height:100%;
+}
+
+.r4Menu > .bar a.right {
+	float:right;
+}
+
+.r4Menu > .bar a:hover {
+	background-color:rgb(40,140,170);
+z-index:10000;
+}
+
+
+/* content */
+.r4Menu > .content,
+.r4Menu > .bar a.selected:hover,
+.r4Menu > .bar a.selected {
+	background-color:#333333;
+z-index:10000;
+}
+
+.r4Menu > .content {
+	top:46px;
+	display:none;
+	height:auto;
+    background-color: rgb(30,124,154);
+    z-index:10000;
+}
+
+.r4Menu > .content > .column {
+	background-image:url(separation.png);
+	background-position:right;
+	background-repeat:repeat-y;
+	width:auto;
+	display:inline-block;
+	float:left;
+	height:100%;
+	margin-top:30px;
+	margin-right:10px;
+	margin-left:0px;
+z-index:10000;
+}
+
+.r4Menu > .content > .column:first-child {
+	margin-left:35px;
+}
+.r4Menu > .content h1 {
+	
+	color:white;
+	padding-bottom:0.1em;
+}
+
+.r4Menu > .content a {
+	height:auto;
+	display:block;
+	color:#CCCCCC;
+	padding-top:0.1em;
+	padding-bottom:0.1em;
+	font-size:0.75em;
+	padding-right:40px;
+}
+
+.r4Menu > .content a:hover {
+	color:white;
+}
+
+.r4Menu > .content.selected {
+	display:block;
+}
+
+/* HEADER MENU - 1004px +
+----------------------------------------------------*/
+#headerMenu {
+	width:1024px;
+	position:relative;
+	height:46px;
+    line-height:100%;
+}
+
+
+#global_menu{
+	width:100%;
+	position:absolute;
+	left:0;
+    top:0;
+	z-index:10000;
+    line-height:100%;
+}
+
+
+#local_menu{
+	width:auto;
+	position:absolute;
+	right:0px;top:0px;
+	z-index:10001;
+	background-color:#17627b;line-height:100%;
+}
+
+
+.RadMenu hover{
+	
+	background-color:#1e80a1;
+}
+
+/* radmenu fix */
+
+.radmenu,.radmenu *{
+margin:0px;padding:0px;border-width:0px;outline-width:0px;outline-style:none;
+background-image:none;line-height:100%;
+}
+
+.RadMenu_Default .group .link,
+.RadMenu_Default .text {
+	vertical-align:middle;
+	font-family:Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	font-smooth:always;
+	font-weight:normal;
+	text-align:left;
+	color:white;
+	font-size:16px;
+	letter-spacing: 0px;
+}
+
+
+
+.radmenu {
+	height:46px;
+	display:inline-block;
+	
+
+}
+.radmenu a ,
+.radmenu a > span{
+	display:inline-block;
+	height:46px;
+	line-height:46px;
+	
+}
+
+
+
+.radmenu a.link :hover {
+	background-color:rgb(61, 122, 173);
+}
+
+.radmenu .group a.link :hover,
+.RadMenu_Default .group .link:hover,
+.RadMenu_Default .group .focused,
+.RadMenu_Default .group .expanded,
+.RadMenu_Default .link:hover,
+.RadMenu_Default .group .link  {
+	background-color:#333333;
+	opacity:1;transparent;filter:alpha(opacity=100); 
+	background-image:none;
+	
+	
+	
+}
+
+
+.RadMenu_Default li li a,
+.RadMenu_Default li li a  .text{
+	color:#CCCCCC;
+	font-size:0.8em;
+	height:22px;
+	line-height:22px;	
+}
+	
+.RadMenu_Default li li a:hover  .text {
+	color:white;
+}
+
+.radmenu ul.vertical {
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:2px;
+	background-color:#333333;
+	position:absolute;
+	top:46px;
+	right:0px;
+}
+
+.radmenu .slide  {
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+
+

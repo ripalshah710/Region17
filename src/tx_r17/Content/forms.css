@@ -1,0 +1,237 @@
+﻿
+/* CREATE AN ACCOUNT
+----------------------------------------------- */
+.logincontrol {
+    clear: both;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+    }
+
+.logincontrol .instructions {
+    clear: both;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400
+    }
+
+.validation-summary-errors li {
+    color: #C61131;
+    font-size: 14px;
+}
+
+.validation-summary-errors li:before  {
+    color: #C61131 !important; 
+    font-family: 'df-icomoon'; 
+    content: "\e62a"; 
+    font-size: 12px; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    margin: 0 5px -6px -20px;
+
+}
+
+
+.feedbackmessage  {
+    position: relative;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.messageerror {
+    color: #C61131;
+}
+
+.messageerror:before  {
+    position: absolute;
+    left: -29px;
+    top: 8px;
+    color: #C61131 !important; 
+    font-family: 'df-icomoon'; 
+    content: "\e651"; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+}
+
+
+.messagesuccess {
+    color: #28582f;
+}
+.messagesuccess:before  {
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    color: #28582f !important; 
+    font-family: 'df-icomoon'; 
+    content: "\e66b"; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+}
+
+
+/* FORM LAYOUT
+----------------------------------------------- */
+.loginform {
+    position: relative; 
+    margin: 0 auto;
+    }
+
+.loginform label, .loginform .editorlabel {
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 12px 10px 0  0;
+    letter-spacing: .03em;
+    font-weight: 400;
+    text-transform: uppercase;
+    }
+  
+
+/* FORM FIELDS
+----------------------------------------------- */
+.loginform select, .loginform textarea, .loginform input[type="text"], .loginforminput[type="tel"], .loginform input[type="email"], .loginform input[type="password"] {
+    position: relative;
+    font-family: 'Titillium Web', Arial, sans-serif;
+    font-size: 14px;
+    width: 80%; 
+    color: #333333; 
+    padding: 6px;
+    background-color: #FFF;
+    border: solid 1px #D3D3D3;
+    border-top-color: #C9C9C9;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.45),0 0 2px rgba(74, 139, 217, 0),0 -1px 0 rgba(0, 0, 0, 0.02),inset 0 1px 0 rgba(0, 0, 0, 0.04),inset 0 2px 0 rgba(0, 0, 0, 0.02),inset 1px 0 0 rgba(0, 0, 0, 0.04),inset -1px 0 0 rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0 1px 1px rgba(255,255,255,0.45),0 0 2px rgba(74,139,217,0),0 -1px 0 rgba(0,0,0,0.02),inset 0 1px 0 rgba(0,0,0,0.04),inset 0 2px 0 rgba(0,0,0,0.02),inset 1px 0 0 rgba(0,0,0,0.04),inset -1px 0 0 rgba(0,0,0,0.04);
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.45),0 0 2px rgba(74, 139, 217, 0),0 -1px 0 rgba(0, 0, 0, 0.02),inset 0 1px 0 rgba(0, 0, 0, 0.04),inset 0 2px 0 rgba(0, 0, 0, 0.02),inset 1px 0 0 rgba(0, 0, 0, 0.04),inset -1px 0 0 rgba(0, 0, 0, 0.04);
+    -webkit-transition: border-color .3s ease;
+    -moz-transition: border-color .3s ease;
+    -o-transition: border-color .3s ease;
+    transition: border-color .3s ease;
+    }
+
+.loginform textarea {
+    height: 175px;
+    }
+
+.loginform input:focus, .loginform textarea:focus {
+    border-color: #17627B;
+    outline: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.45),0 0 2px rgba(74, 139, 217, 0.3),inset 0 1px 0 rgba(0, 0, 0, 0.04),inset 0 2px 0 rgba(0, 0, 0, 0.02),inset 1px 0 0 rgba(0, 0, 0, 0.04),inset -1px 0 0 rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0 1px 1px,inset 0 1px 0,inset 0 2px 0,inset 1px 0 0,inset -1px 0 0;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.45),0 0 2px rgba(74, 139, 217, 0.3),inset 0 1px 0 rgba(0, 0, 0, 0.04),inset 0 2px 0 rgba(0, 0, 0, 0.02),inset 1px 0 0 rgba(0, 0, 0, 0.04),inset -1px 0 0 rgba(0, 0, 0, 0.04);
+    -webkit-transition-duration: .05s;
+    -moz-transition-duration: .05s;
+    -o-transition-duration: .05s;
+    transition-duration: .05s;
+    }
+
+/* REQUIRED
+----------------------------------------------- */
+.loginform .field-validation-error {
+    float: right;
+    margin: -50px 159px 0 0;
+    color: #FF7519;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    }
+    
+   
+/* BUTTON
+----------------------------------------------- */
+.loginform .button input,.loginform .button button {
+    position: relative;
+	display: block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	margin: 12px 1px 0 0;
+	vertical-align: middle;
+	padding: 4px 12px 4px 12px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	letter-spacing: .05em;
+	background-color: #1E7C9A;
+	border: solid 1px #17627B !important;
+	text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    }
+
+.loginform .button input:hover, .loginform .button button:hover {
+    background-color: rgb(40,140,170);
+	cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    }
+
+
+.buttonarea {
+    width: 80%;
+    position: relative;
+}
+
+.editorreset {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.editorreset label{
+    float: left;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    padding: 3px 0 0 0 !important;
+}
+
+.editorreset input{
+    float: left;
+    vertical-align: middle !important;
+    width: 25px;
+}
+
+.loginreturnlink {
+    float: left;
+    margin: 5px 20px 5px 0;
+}
+
+.loginreturnlink a {
+    text-decoration: none !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0000EE; 
+    text-decoration: underline;
+} 
+
+
+.feedback {
+    color: #C61131;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}   

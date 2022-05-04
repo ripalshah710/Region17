@@ -1,0 +1,208 @@
+﻿
+.error
+{
+	color: Red;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.mainBody
+{
+	font-family : Verdana;
+	font-size: 18pt;
+}
+
+.mainBodyBold
+{
+	font-weight: bold;
+	font-family : Verdana;
+	font-size: 8pt;
+}
+.mainBodySmall
+{
+	font-size: 8pt;
+}
+
+.link
+{
+	color: Blue;
+}
+
+A.PageLink
+{ 
+    /*text-decoration: underline; color: #000066;*/ 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: normal;
+	color: #333333; 
+    text-decoration: underline; 
+    font-size: 8pt 
+}
+
+A.PageLink:Hover
+{ 
+    /*text-decoration: none; color: #003A99;*/ 
+    color: #336699; 
+    text-decoration: none; 
+}
+
+
+.divider
+{
+	border-bottom: dashed 1px #2E128F;
+}
+
+.heading
+{
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.tableHeading
+{
+	background-color: dimgray;
+	color: White;
+	font-weight: bold;
+}
+
+.tableAltRow
+{
+	background-color: lightGray;
+}
+
+.formInput
+{
+	border: solid 1px gray;
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+BODY
+{
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+TD
+{
+	font-size: 8pt;
+	font-family: Verdana;
+}
+.upcomingSessionHeader {
+    font-size: 12pt;
+    font-weight: bold;
+    color: darkred !important;
+    /*color: #653823; /* red color */*/
+    text-align: left;
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+.breakoutheader
+{
+	font-size: 12pt;
+	font-weight: bold;
+	color: white; 
+	text-align: left;
+	font-family: Tahoma, Helvetica, sans-serif; 
+	background-color:#659A66;
+
+	
+	}
+
+.breakoutAltRow
+{background-color: #CCCCCC;
+}
+
+.upcomingSessionFooter {
+    font-size: 8pt;
+    font-weight: bold;
+    /*color: #653823;*/
+    color: darkred !important;
+    text-align: right;
+}
+.mlabel              
+ { 
+ 	font-family: Tahoma, Helvetica, sans-serif; 
+    font-weight: bold;
+	color: black;
+	padding-left:6;
+    text-decoration: none; 
+    font-size: 15px; 
+}
+
+#recEventsTable .header
+{
+  font-weight: bold;
+  background-color: #c0c0c0;
+}
+
+#recEventsTable
+{
+	border : dashed 1px gray;
+}
+
+#recEventsTable TD
+{
+	padding-top: 5px;
+}
+
+.sessionSummary
+{
+	background-color:#FFFF99; 
+	font-style: italic; 
+	font-size: 8pt;
+}
+
+div#escWorksSimpleSearch table
+{
+	border: 1px solid #666666;
+	margin-bottom: 4px;
+	border-collapse : collapse;
+	width: 100%;
+}
+div#escWorksSimpleSearch .header
+{
+	background-color: #E9DDBC;
+	font-weight: bold;
+	font-size: small;
+	border-bottom: 1px solid #666666;
+}
+
+div#escWorksSimpleSearch .header td
+{
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+	 padding-right: 5px;
+}
+div#escWorksSimpleSearch a {
+	color: #A25634;
+	text-decoration:none;
+	border: none;
+}
+div#escWorksSimpleSearch a:hover {
+	color: #7E4329;
+	border: none;
+	text-decoration: underline;
+}
+div#escWorksSimpleSearch a:visited {
+  color: #A25634;
+}
+div#escWorksSimpleSearch td {
+	border-bottom: 1px solid #999999;
+	vertical-align: top;
+}
+div#escWorksSimpleSearch .sessiondescription
+{
+	color: #aaa;
+}
+
+div#escWorksSimpleSearch .headerAscending
+{
+	background:transparent url(..\img\sort_asc.gif) no-repeat scroll right center;
+}
+div#escWorksSimpleSearch .headerDescending
+{
+		background:transparent url(..\img\sort_desc.gif) no-repeat scroll right center;
+}
+a.uploadLink
+{
+    color:#ffd253;
+}

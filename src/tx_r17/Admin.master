@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en"
+xml:lang="en">
+<head runat="server">
+    <title>escWorks</title>
+    <link type="text/css" rel="stylesheet" href="~/lib/css/escWorksStyle.css" />
+   
+</head>
+<body style="width: 100%">
+    <form runat="server" class="mainBody">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table align="center">
+        <tr valign="top">
+            <td>
+                <table style="margin-left: auto; width: 800px; margin-right: auto; margin-top: 20px;
+                    border-collapse: collapse; height: 600px; border-right: black 1px solid; border-top: black 1px solid;
+                    border-left: black 1px solid; border-bottom: black 1px solid;">
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr style="vertical-align: top;">
+                        <td style="width: 200px; padding: 10px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td bgcolor="#ffffff">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <br />
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                        <td style="width: 1px; height: 100%; background-color: #FFFFFF; padding: 3px;">
+                        </td>
+                        <td style="width: 100%; height: 100%; vertical-align: top; padding-right: 10px;">
+                            <div style="height: 200px; background-color: #ffffff; background-repeat: no-repeat;">
+                                <div class="mainBody">
+                                    <escWorks:PageTitle runat="server" ID="pageTitle" BackColor="#FFFFFF" />
+                                    <br />
+                                    <asp:ContentPlaceHolder runat="server" ID="mainBody" />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="width: 1px; height: 100%; background-color: #FFFFFF; padding: 0px;">
+                            <img src="<%# BasePage.PathToRoot %>lib/standard/img/trans.gif" width="1px" height="1px" />
+                        </td>
+                    </tr>
+                </table>
+                <div style="padding: 5px; float: right; width: 50%;">
+                    <a title="escWorks .NET" href="http://www.escworks.com">
+                        <img src="<%# BasePage.PathToRoot %>lib/standard/img/escWorks_LOGO_PoweredBy.jpg"
+                            border="0" /></a>
+                </div>
+                <asp:Label runat="server" ID="lblStagingServer" CssClass="error" Text="Staging Server" />
+                <br />
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

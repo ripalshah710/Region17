@@ -1,0 +1,60 @@
+﻿.mainTable
+{
+    border: solid 1px #999999;
+}
+
+.tableCell
+{
+    border: solid 1 px #999999;
+    color: #4f2a0a;
+    font-size: 7pt;
+    height: 60px;
+}
+
+.tableCellHeader
+{
+    border: solid 1 px #999999;
+    color: Blue;
+    font-size: 8pt;
+}
+
+.notInMonth
+{
+    border: solid 1 px black;
+    background-color: Gray;
+}
+
+.calendarLink 
+{
+/* styles moved to td.tableCell... for better browser compatibility when differentiating between the day number link style and the cell content link style. */
+}
+td.tableCell li {
+padding-top: 4px;
+list-style: none; /* removed bullet which is incompatible with non-IE browsers when <li> not used within an <ul> or <ol> tag. */
+}
+td.tableCell a {
+color: Blue;
+font-weight: bold;
+padding-right:12px;
+}
+td.tableCell li a {
+font-weight: normal;
+background: none;
+text-decoration: none;
+padding-right: 0px;
+}
+td.tableCell li a:hover {
+text-decoration: underline;
+}
+
+.calendarCurrentDate
+{
+	background-color : #FFFF99;/*#d6f3de;*/
+	
+}
+
+.calendarTitle
+{
+	font-weight: bold;
+	font-size: 14pt;
+}

@@ -1,0 +1,443 @@
+﻿/* ----------------------------------------------------------------*/
+/* Grid between 320-479px (mediaqueries)
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+
+body {
+    background-image: none;
+    background-color: #ffffff;
+}
+
+.hidefrommobile {
+    display: none;
+}
+
+    
+/* RESPONSIVE BASE CONTAINER & GRID WIDTH - 320-479px
+----------------------------------------------------*/
+#basecontainer {
+    clear: both; 
+    width: 100%; 
+    }
+
+.basegridwidth {
+    width: 100%;
+    min-width: 260px; 
+    max-width: 468px;
+    box-shadow: none;
+    }
+    
+.contentwidth {
+    width: 90%;
+    min-width: 200px;
+    max-width: 440px;
+    }
+    
+/* RESPONSIVE HEADER - 320-479px
+----------------------------------------------------*/
+ .header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 100; 
+    border-bottom: 1px solid #9A9A9A; 
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    }
+
+#summerhead{
+    height:60px !important;
+    background-size: cover;
+    background-color: #ffffff;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    }
+
+    
+.logo {
+    position: absolute; 
+    top: 15px; 
+    left: 0; 
+    z-index: 101;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    }
+
+.logo img {
+    width: 100px;
+    }
+ 
+/* RESPONSIVE MAIN NAV SHOW/HIDE - 320-479px
+----------------------------------------------------*/
+.navd, .utilitynav, .subnavvisible, .iconlist, .unselectable, .fontchangetext, .headersearch {
+    display: none !important;
+    }
+
+header, .navr {
+    display: block;
+    }
+
+.navr {
+    z-index: 20000;
+    position: relative;
+    }
+
+/* RESPONSIVE BUTTON - 320-479px
+-------------------------------------------------------*/  
+.menu-btn{
+    top: 8px;
+    right: 0;
+	width: 50px;
+	height: 50px;
+    }
+
+.menu-btn:before{
+    top: 0;
+    right: 0;
+    line-height: 50px;
+    font-size: 17px;
+    height: 50px;
+    width: 50px;
+    }
+
+/* RESPONSIVE SUB PARENT TITLE - 480-767px
+----------------------------------------------------*/
+.pagetitle h1 {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 300;
+    }    
+
+/* RESPONSIVE SUB SELECT DROPDOWN - 480-767px
+--------------------------------------------------*/
+.subnavdropdown {
+    clear: both;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #9A9A9A;
+    margin-bottom: 10px;
+}
+
+.subnavdropdown select {
+    width: 100%;
+    padding: 4px;
+    color: rgb(30,124,154);
+    font-size: 16px;
+}
+
+
+/* RESPONSIVE CONTENT AREAS & GRIDS - 320-479px
+--------------------------------------------------*/     
+.contentgrid {
+    width: 97%;
+    } 
+
+.contentarea {
+    position: relative;
+    clear: both;
+    float: none;
+    padding: 0;
+    width: 100%;
+    min-width: 280px;
+    }
+    
+.contentarea .contentblock {
+    padding: 5px 0 25px 0;
+    width: 100%;
+    max-width: 460px;
+    min-width: 300px;
+    min-height: 200px;
+    _height: 200px;
+    }
+
+/* LIST PAGE - 768-1003px
+----------------------------------------*/
+.subiconnav {
+    clear: both;
+    padding: 0 0 8px 0;
+    margin-bottom: 10px;
+}
+
+.iconmobilelist {
+    clear: both;
+}
+
+.iconmobilelist a {
+    clear: both;
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #9A9A9A;
+    text-decoration: none;
+    color: rgb(40,140,170);
+    font-size: 14px;
+
+}
+
+a:hover.tooltips span {
+  visibility: hidden !important;
+}
+
+.iconlist {
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.iconnavdropdown {
+    clear: both;
+    padding: 0 0 8px 0;
+    border-bottom: 1px solid #9A9A9A;
+    margin-bottom: 10px;
+}
+
+.iconnavdropdown select {
+    width: 100%;
+    padding: 4px;
+    color: rgb(30,124,154);
+    font-size: 16px;
+
+}
+
+.iconnav {
+    display: none;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 80%;
+    height: auto;
+}	 
+
+
+
+
+/* CONTENT BLOCK - 320-479px
+----------------------------------------------------*/
+.StandardCBStyle table td {display: table-row !important;} 
+	
+
+/* RESPONSIVE SUB PARENT TITLE - 320-479px
+--------------------------------------------------------*/
+.subparenttitle {
+    top: 35px;
+    padding: 0;
+    }
+
+.subparenttitle h1 {
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 100;
+    padding: 0 0 0 0;
+    margin: 0;
+    letter-spacing: .03em;
+    } 
+          
+/* RESPONSIVE FOOTER GRID - 320-479px
+----------------------------------------------------*/
+#footergrid {
+    height: 120px;
+}
+
+.footergridleft {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.footergridright {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.footergridmennu {
+    padding: 2px;
+}
+
+
+.footergridmennu a {
+    padding: 0 10px;
+    }
+
+.footergridmennu a:last-child {
+    border-right: none;
+    }
+ 
+/* RESPONSIVE FOOTER - 320-479px
+----------------------------------------------------*/ 
+#footer {
+    height: 100px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+
+.top {
+    clear: both;
+    padding-top: 16px;
+    }
+    
+.bottom {
+    clear: both;
+    padding-top: 12px;
+    } 
+ 
+/* RESPONSIVE EVENTS LIST LEFT COLUMN - 320-479px
+----------------------------------------------------*/
+.events .eventframe {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+ 
+/* RESPONSIVE HOME CONTENT AREA GRID - 320-479px
+----------------------------------------------------*/
+.homegrid .contentarea .colcontentblockleft {
+    clear: both;
+    float: none;
+    width: 100%;
+    padding: 15px 0 0 0;
+    } 
+
+.homegrid .contentarea .colcontentblockright {
+    clear: both;
+    float: none;
+    width: 100%;
+    } 
+
+/* RESPONSIVE HOME TOP GALLERY - 320-479px
+----------------------------------------------------*/
+.hometopgallery {
+    clear: both;
+    width: 280px;
+    height: 192px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.hometopgallery .gallerycontainer {
+    width: 280px;
+    height: 150px !important;
+    margin: 0 auto;
+    }
+
+.hometopgallery .gallerycontainer ul {
+    width: 280px;
+    height: 150px;
+}
+
+.hometopgallery #slides {
+    height: 192px !important;
+    z-index: 11;
+}
+
+/* RESPONSIVE HOME MID GALLERY - 320-479px
+----------------------------------------------------*/
+.gallerycenterblock {
+    width: 280px;
+    margin: 0 auto;
+    height: 83px;
+    text-align: center;
+    } 
+
+
+.homemidgallery {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0 30px 0;
+}
+
+.homemidgallery .gallerycontainermid {
+    width: 280px;
+    height: 83px;
+    margin: 0 auto;
+    }
+
+.homemidgallery .gallerycontainermid ul {
+    width: 280px !important;
+    height: 83px;
+}
+
+.homemidgallery #slidesmid {
+    width: 280px !important;
+    height: 83px !important;
+    z-index: 11;
+}
+
+.homemidgallery #slidesmid img {
+    width: 280px !important;
+    height: 83px !important;
+}
+
+/* RESPONSIVE HOME QUICK NAV - 320-479px
+----------------------------------------------------*/
+.mobilehomequick {
+    clear: both;
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid #9A9A9A;
+
+}
+
+.mobilehomequicktitle {
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.quickmobilenav {
+    clear: both;
+    display: block;
+}
+
+.quickmobilenav a {
+    clear: both;
+    display: block;
+    padding: 6px 0;
+}
+
+/* LOGIN CONTROL - 480-767px
+----------------------------------------------------*/
+.logincontrol {
+    width: 100% !important;
+}
+
+.loginform select, .loginform textarea, .loginform input[type="text"], .loginforminput[type="tel"], .loginform input[type="email"], .loginform input[type="password"] {
+    width: 100% !important; 
+    }
+
+
+
+/* RESPONSIVE REGION 4 OVERWRITES - 320-479px
+----------------------------------------------------*/
+.storysmall div:first-child {
+    width: 100% !important;
+}
+
+.story div:first-child {
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+} 

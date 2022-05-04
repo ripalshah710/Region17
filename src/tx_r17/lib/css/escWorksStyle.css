@@ -1,0 +1,959 @@
+/*CSS sources to be used within the site:
+<LINK rel="stylesheet" type="text/css" href="Home_files/escWorksStyle.css" NEW Master CSS file created from Original CSS files below 
+
+masterStyle.css, pageTitle.css, menu.css, calendar.css, shoppingCart.css,
+page-styles.css merged below 
+
+End CSS sources */
+
+
+/* Global Styles - most come from former masterStyle.css, masterPage.master, or default.aspx, or masterPage.master*/
+/*code for Skip To Content Link*/
+.skip-to-content-link {
+	left: 50%;
+	position: absolute;
+	transform: translateY(-100%);
+	z-index: 999;
+}
+
+.skip-to-content-link {
+	/*<p id="main" tabindex="-1"> background: #e77e23;*/
+	height: 30px;
+	left: 50%;
+	padding: 8px;
+	position: absolute;
+	transform: translateY(-100%);
+	transition: transform 0.3s;
+	z-index: 999;
+}
+
+.skip-to-content-link:focus {
+	transform: translateY(0%);
+	z-index: 999;
+}
+
+/* From MasterStyle css */
+.error {
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*per TSB Suggestions to use H1-H3 */
+h1 {
+	display: inline;
+	font-size: 1.75em;
+	margin-before: 0.67em;
+	margin-after: 0.67em;
+	margin-start: 0;
+	margin-end: 0; 
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-before: 0.83em;
+	margin-after: 0.83em;
+	margin-start: 0;
+	margin-end: 0;
+	font-weight: bold;
+	display:inline;
+	color: #2a3855;
+}
+
+h3 {
+	font-size: 1.25em;
+	margin-before: 1em;
+	margin-after: 1em;
+	margin-start: 0;
+	margin-end: 0;
+	font-weight: bold;
+	display:inline;
+}
+
+h4 {
+	font-size:1em;
+	font-style:normal;
+	font-weight: normal;
+	display:inline;
+}
+
+h5 {
+	font-size:.75em;
+	font-style:normal;
+	font-weight:bold;
+}
+
+h6 {
+	font-size:.5em;
+	font-style:normal;
+	font-weight:bold;
+}
+/*end TSB Suggestions*/
+
+/* Welcome Section just above Search (size only) AND color ONLY on Upcoming Sessions Dates,
+ Contact us if you .... text, and Part of the outer table border
+*/
+.mainBody {
+ /*background-color:#F4F4F4;*/
+ padding-left: 7px;
+ width:799px;
+
+} 
+
+/* Session Detail text */
+.mainBodySmall {
+	font-size:  10pt;
+} 
+
+/*Upcoming Sessions section DATES*/
+.mainBodyBold {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #f4f4f4;
+} 
+
+h2.mainBodyBold 
+{
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    margin-before: 0.83em;
+    margin-after: 0.83em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+    display:inline;
+    background-color: #efece5;
+}
+
+
+/*color of the #Items link, reg hist/cert sections */
+.link {
+	color: blue;
+} 
+
+/*???*/
+a.PageLink {
+	color: rgb(51, 51, 51);
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+
+/*???*/
+a.PageLink:hover {
+	color: rgb(51, 102, 153);
+	text-decoration: none;
+}
+
+/* dashed line divider between "Home" and Title*/
+.divider {
+	border-bottom-color: #2f4c72;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.heading {
+	font-size:h1;
+	font-weight: bold;
+}
+.tableHeading {
+	color: white;
+	font-weight: bold;
+	background-color: dimgray;
+}
+
+/*Past Sessions tab (Reg History/Cert sections)*/
+.tableAltRow {
+	background-color: #d3d3d3;
+}
+
+/*Account information form - controls display of the form on the My Account page, PD Record page, etc.*/
+.formInput {
+	border: 1px solid gray;
+	font-family: Arial;
+	font-size: 8pt;
+}
+
+/*Same as td below, but is overridden by td (last in rules)*/
+body {
+	font-family: Arial;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+/* Quicklinks font family,page footer font family and size; possibly row 2 font size Controls all text on Conference display table */
+td {
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+/*page footer*/
+#footer			{
+ 			clear:both; 
+            /*background-color: #f4f4f4;*/
+			/*background-image:url('../img/footer2.jpg');*/
+			/*background-repeat: no-repeat;*/
+			margin-right: auto;
+			margin-left: auto;
+			text-align: left;
+			height: 69px;
+			width: 1034px;
+			}
+
+#footer2			{
+ 			clear:both; 
+            background-color: #1b4065;
+			/*background-image:url('../img/footer2.jpg');*/
+			/*background-repeat: no-repeat;*/
+			margin-right: auto;
+			margin-left: auto;
+			text-align: left;
+			height: 178px;
+			width: 1034px;
+			}
+
+#footerin		{
+			height: 138px;
+			width: 974px;
+            padding: 0px 30px 0px 30px;
+			}
+
+#footerin2		{
+			height: 138px;
+			width: 974px;
+            padding: 0px 30px 0px 30px;
+			}
+	
+.footertext		{
+			font-size: 12px;
+			font-weight:bold;
+			color: #000; 
+			text-decoration: none; 
+			padding: 0px 0px 0px 0px;
+			line-height: 15px;
+			}
+			
+
+.footertext2		{
+			font-size: 12px;
+			font-weight:bold;
+			color: #f4f4f4; 
+			text-decoration: none; 
+			padding: 0px 0px 0px 0px;
+			line-height: 15px;
+			}
+
+.story1
+ {
+	font-family: Arial;
+	font-size: 8pt;
+	color: Gray;
+}
+
+/* "Upcoming Sessions" text (Heading)*/
+.upcomingSessionHeader {
+	text-align: left;
+	color: darkred; /*rgb(200, 0, 50);*/
+	font-family: Verdana, sans-serif;
+	
+}
+
+. upcomingLink
+{
+    color: #2a3855;
+    }
+
+/* Controls appearance of breakout session headings */
+.breakoutheader {
+	text-align: left;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	background-color: rgb(101, 154, 102);
+}
+
+/* Controls the color of the cells displayed in the Conference Breakout view (alt row should mean alternate color, but all gray) */
+.breakoutAltRow {
+	background-color: rgb(204, 204, 204);
+}
+
+/* "more sessions..." text */
+.upcomingSessionFooter {
+	text-align: right;
+	color: darkred; /*rgb(200, 0, 50);*/
+	font-size: 8pt;
+	font-weight: bold;
+}
+.upcomingContent
+{
+    color:#2a3855;
+    }
+
+
+.formdnldlabel {
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color:#2f4c72;
+}
+#recEventsTable .header {
+	font-weight: bold;
+	background-color: rgb(192, 192, 192);
+}
+#recEventsTable {
+	border: 1px dashed gray;
+}
+#recEventsTable td {
+	padding-top: 5px;
+}
+
+/* Session summary page - yellow banner detailing registration information */
+.sessionSummary {
+	font-size: 10pt;
+	font-style: italic;
+	background-color: rgb(255, 255, 153);
+	padding-top:8px;
+	padding-bottom:8px;
+}
+div#escWorksSimpleSearch table {
+	border: 1px solid rgb(102, 102, 102);
+	width: 100%;
+	margin-bottom: 4px;
+	border-collapse: collapse;
+}
+div#escWorksSimpleSearch .header {
+	font-size: small;
+	font-weight: bold;
+	border-bottom-color: rgb(102, 102, 102);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-color: rgb(233, 221, 188);
+}
+div#escWorksSimpleSearch .header td {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+div#escWorksSimpleSearch a {
+	border: currentColor;
+	color: rgb(162, 86, 52);
+	text-decoration: none;
+}
+div#escWorksSimpleSearch a:hover {
+	border: currentColor;
+	color: rgb(126, 67, 41);
+	text-decoration: underline;
+}
+div#escWorksSimpleSearch a:visited {
+	color: rgb(162, 86, 52);
+}
+div#escWorksSimpleSearch td {
+	vertical-align: top;
+	border-bottom-color: rgb(153, 153, 153);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+div#escWorksSimpleSearch .sessiondescription {
+	color: rgb(170, 170, 170);
+}
+div#escWorksSimpleSearch .headerAscending {
+	background: url("..imgsort_asc.gif") no-repeat right;
+}
+div#escWorksSimpleSearch .headerDescending {
+	background: url("..imgsort_desc.gif") no-repeat right;
+}
+
+/* Registration Form link */
+a.uploadLink {
+	color: #b8cadd;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+a.uploadLink :hover {
+    color: white;
+}
+
+
+/*Left Menu Styles - including 'QuickLinks', signin/signout button, Nav levels 1 & 2, PDF Download txt and Reg Form link */
+
+
+/*Main menu font (not Quick Links, sign in button, pdf downloads and Registration link) link decoration, size, font family*/
+div#escWebMenu a {
+	font-family: Arial, sans-serif;
+	font-size: h3;
+	text-decoration: none;
+}
+
+/* Menu links (not Quick Links, Sign In Button, Pdf downloads and registration link) - controls bullets, padding, font family and size - seems to be competing with above selector */
+
+/*Quicklinks controlled by 'MasterPage.master*/
+
+div#escWebMenu li {
+	padding: 2px;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size:h3;
+	text-decoration: none;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+
+/* Similar to above; maybe consolidate (list item and unordered list)*/
+div#escWebMenu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: h3;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/*controls Hello User Welcome Messge font color, size*/
+.welcomeMsg 
+{
+    font-family: Arial, Sans-Serif;
+    color: #ffffff;
+    font-size:15px;
+    
+}
+
+/* Controls top level links in menu (Home, Search Options, My Account, Contact Us, BUT NOT PDF Downloads) */
+.navLevel0 a {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	color: rgb(255, 255, 255);
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: h3;
+}
+
+/* Menu Links hover color (except Registration Form)*/
+div#escWebMenu li :hover {
+	color: white;
+	}
+
+/* Controls top level links in menu (Home, Search Options, My Account, Contact Us, BUT NOT PDF Downloads) */
+.navLevel1 a {
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: h3;
+}
+
+
+.menuItemSelected {
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	font-size: h3;
+}
+#navCenter {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#navCenter img {
+	
+}
+
+/* PDF Downloads label (being overridden somewhere: font color probably by inline style); */
+.mlabel {
+	 text-align:Left;
+	 color:#ffffff;
+	 font-family: Arial, sans-serif;
+	 font-size: h3;
+	 font-weight: bold;
+	 padding-left: 7px;
+	 text-decoration: none;
+}
+
+
+/*Banner Section Styles - including 'escWorks' banner area, horizontal spacer, and shopping cart/divider --
+see 'MasterPage.master' */
+
+
+
+/* Shopping Cart; originally located in pageTitle.css
+Home, Registration Cart, and Item Count above search */
+.pageTitleText {
+	 
+	 font-weight: bold;
+	 color: black;
+	 font-size: h1;
+	 
+	 }
+
+h3.pageTitleText 
+{
+    font-size: 1.75em;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+    display:inline;
+}
+
+h1.pageTitleText 
+{
+    color: Black;
+    font-size:h1;
+}
+
+
+
+/*Page Title and Search Styles (originally from page-styles.css)*/
+
+/* Title above search box (default text: "Welcome to Professional Development Online Registration"; text is controlled in Default.aspx;
+Also contains gradient background or image background information; originally from page-styles.css
+ */
+#pageheader {
+	border: 1px solid black; 
+    background-color:#058284;
+	width: 799px; 
+	height: 50px; 
+	color: rgb(0, 0, 0); 
+	line-height: 50px; 
+	padding-left: 5px; 
+	font-size: h1; 
+	font-weight: bold; 
+	float: right; 
+	/*background-image: url(../img/tableheadbkgrnd-blue.gif);*/
+	/*background-repeat: repeat-x;*/
+	color: #fff;
+}
+
+
+/* Search box appearance including size, borders, font (originally in page-styles.css); Text controlled in Default.aspx;*/
+#searchbox {
+	padding: 5px;
+	border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+	width: 794px;
+	float: right;
+}
+
+
+/*Marketing Section Styles */
+
+
+/*Contact Us and Upcoming Sessions Styles -- see 'Default.aspx'*/
+
+
+/*Footer Section Styles - including Powered by escWorks section */  
+
+
+
+/* From shoppingCart CSS  formats the cart borders*/
+
+.cartLeftBorder {
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.cartRightBorder {
+	text-align: right;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.cartMiddleBorder {
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.cartStart {
+	border-bottom-color: blue;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+.cartEnd {
+	border-top-color: blue;
+	border-top-width: 3px;
+	border-top-style: solid;
+}
+
+
+/* Calendar Formatting */
+
+.mainTable {
+	border: 1px solid rgb(153, 153, 153);
+}
+.tableCell {
+	height: 60px;
+	color: rgb(79, 42, 10);
+	font-size: 7pt;
+}
+.tableCellHeader {
+	color: blue;
+	font-size: 8pt;
+}
+.notInMonth {
+	background-color: gray;
+}
+.calendarLink {
+	
+}
+td.tableCell li {
+	list-style: none;
+	padding-top: 4px;
+}
+td.tableCell a {
+	color: blue;
+	padding-right: 12px;
+	font-weight: bold;
+}
+td.tableCell li a {
+	padding-right: 0px;
+	font-weight: normal;
+	text-decoration: none;
+}
+td.tableCell li a:hover {
+	text-decoration: underline;
+}
+.calendarCurrentDate {
+	background-color: rgb(255, 255, 153);
+}
+.calendarTitle {
+	font-size:14pt;
+	font-weight: bold;
+}
+
+h3.calendarTitle {
+    font-size: 1.17em;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+    display:inline;
+}
+    
+      
+/*The followings are added from R20*/
+/*Image Carousel Settings from slick-carousel/1.5.8/slick.min.css*/
+
+.slick-slider{
+	position:relative;	
+	display:block;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	-webkit-touch-callout:none;
+	-khtml-user-select:none;
+	-ms-touch-action:pan-y;
+	touch-action:pan-y;
+	-webkit-tap-highlight-color:transparent
+}
+
+.slick-list{
+	position:relative;
+	display:block;
+	overflow:hidden;
+	margin:0;
+	padding:0
+}
+
+
+.slick-list:focus{
+	outline:0
+}
+
+
+.slick-list.dragging{
+	cursor:pointer;
+	cursor:hand
+}
+
+
+.slick-slider .slick-track,.slick-slider .slick-list{
+	-webkit-transform:translate3d(0,0,0);
+	-moz-transform:translate3d(0,0,0);
+	-ms-transform:translate3d(0,0,0);
+	-o-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0)
+}
+
+
+.slick-track{
+	position:relative;
+	top:0;
+	left:0;
+	display:block
+}
+
+
+.slick-track:before,.slick-track:after{
+	display:table;
+	content:''
+}
+
+
+.slick-track:after{
+	clear:both
+}
+
+
+.slick-loading .slick-track{
+	visibility:hidden
+}
+
+
+.slick-slide{
+	display:none;
+	float:left;
+	height:100%;
+	min-height:1px
+}
+
+
+[dir='rtl'] .slick-slide{
+	float:right
+}
+
+
+.slick-slide img{
+	display:block
+}
+
+
+.slick-slide.slick-loading img{
+	display:none
+}
+
+
+.slick-slide.dragging img{
+	pointer-events:none
+}
+
+
+.slick-initialized .slick-slide{
+	display:block
+}
+
+
+.slick-loading .slick-slide{
+	visibility:hidden
+}
+
+
+.slick-vertical .slick-slide{
+	display:block;
+	height:auto;
+	border:1px solid transparent
+}
+
+
+.slick-arrow.slick-hidden{
+	display:none
+}
+    
+
+
+
+/* Image Carousel Settings from slick-carousel/1.5.8/slick-theme.min.css*/
+
+@charset 'UTF-8';
+
+
+.slick-loading .slick-list{
+	background:#fff 
+	url('./ajax-loader.gif') center center no-repeat}@font-face{font-family:'slick';
+	font-weight:normal;
+	font-style:normal;
+	src:url('./fonts/slick.eot');
+	src:url('./fonts/slick.eot?#iefix') 
+	format('embedded-opentype'),
+	url('./fonts/slick.woff') 
+	format('woff'),
+	url('./fonts/slick.ttf') 
+	format('truetype'),
+	url('./fonts/slick.svg#slick') 
+	format('svg')
+}
+
+
+.slick-prev,.slick-next{
+	font-size:0;
+	line-height:0;
+	position:absolute;
+	top:50%;
+	display:block;
+	width:20px;
+	height:20px;
+	margin-top:-10px;
+	padding:0;
+	cursor:pointer;
+	color: #1e366c;
+	border:0;outline:0;
+	background:transparent
+}
+
+
+.slick-prev:hover,.slick-prev:focus,.slick-next:hover,.slick-next:focus{
+	color: #1e366c;
+	outline:0;
+	background:transparent
+}
+
+
+.slick-prev:hover:before,.slick-prev:focus:before,.slick-next:hover:before,.slick-next:focus:before{
+	opacity:1
+}
+
+
+.slick-prev.slick-disabled:before,.slick-next.slick-disabled:before{
+	opacity:1
+}
+
+
+.slick-prev:before,.slick-next:before{
+	font-family:'slick';
+	font-size:20px;
+	line-height:1;
+	opacity:.75;
+	color:#1e366c;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+
+
+.slick-prev{
+	left:-25px
+}
+
+
+[dir='rtl'] .slick-prev{
+	right:-25px;left:auto
+}
+
+
+.slick-prev:before{
+	content:'<'
+}
+
+
+[dir='rtl'] .slick-prev:before{
+	content:'<'
+}
+
+
+.slick-next{
+	right:-25px
+}
+
+
+[dir='rtl'] .slick-next{
+	right:auto;
+	left:-25px
+}
+
+
+.slick-next:before{
+	content:'>'
+}
+
+
+[dir='rtl'] .slick-next:before{
+	content:'>'
+}
+
+
+.slick-slider{
+	margin-bottom:30px
+}
+
+
+.slick-dots{
+	position:absolute;
+	bottom:-45px;
+	display:block;
+	width:100%;
+	padding:0;
+	list-style:none;
+	text-align:center
+}
+
+
+.slick-dots li{
+	position:relative;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	margin:0 5px;
+	padding:0;
+	cursor:pointer
+}
+
+
+.slick-dots li button{
+	font-size:0;
+	line-height:0;
+	display:block;
+	width:20px;
+	height:20px;
+	padding:5px;
+	cursor:pointer;
+	color:transparent;
+	border:0;
+	outline:0;
+	background:transparent
+}
+
+
+.slick-dots li button:hover,.slick-dots li button:focus{
+	outline:0
+}
+
+
+.slick-dots li button:hover:before,.slick-dots li button:focus:before{
+	opacity:1
+}
+
+
+.slick-dots li button:before{
+	font-family:'slick';
+	font-size:6px;
+	line-height:20px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:20px;
+	height:20px;
+	content:'•';
+	text-align:center;
+	opacity:.25;
+	color:black;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+
+
+.slick-dots li.slick-active button:before{
+	opacity:.75;
+	color:black
+}  

@@ -1,0 +1,279 @@
+﻿/* ----------------------------------------------------------------*/
+/* Grid over 1003px (mediaqueries)
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1004px) {
+    .colcontentblockleft {
+        float: left;
+        padding: 15px 0 0 0;
+        width: 21% !important;
+        min-height: 550px;
+        line-height: 1em;
+        float: left;
+    }
+
+    .colcontentblockright {
+        float: right;
+        padding: 15px 0 0 0;
+        width: 76% !important;
+        min-height: 550px;
+        _height: 550px;
+    }
+
+    #pageheader {
+        padding-left: 10px;
+        padding-top: 1px;
+        border: 1px solid black;
+        width: 100%;
+        font-size: 20px !important;
+        height: 50px;
+        color: rgb(0, 0, 0);
+        /*line-height: 50px;*/
+        /*font-weight: bold;*/
+        float: left;
+        /*background-image: url(../lib/img/tableheadbkgrnd-blue.gif) !important;
+    background-repeat: repeat-x;*/
+        background-color: #058284 !important;
+        color: #fff;
+    }
+
+    #searchbox {
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        /*border: 1px solid black;*/
+        width: 100%;
+        font-size: small;
+    }
+
+    #headerFont {
+        font-size: 20px;
+        /*background-color: #2f4c72;*/
+    }
+
+    .logo img {
+        /*width: 100px;*/
+        height: 80px;
+        width: auto !important;
+    }
+
+    .ImageFrame {
+        width: 450px !important;
+        height: 300px !important;
+    }
+
+    .leftSpace {
+        padding-left: 13px;
+    }
+
+    .paddingLeft {
+        padding-left: 12px;
+    }
+
+    .searchHeader {
+        font-size: smaller;
+    }
+
+    #MobileGreetings {
+        visibility: hidden;
+    }
+
+    .mediumFont {
+        font-size: medium;
+    }
+
+    #txtSearch {
+        width: 500px;
+    }
+
+    #cartCount {
+        visibility: hidden;
+    }
+
+    #topBannerLogo {
+        height: 120% !important;
+        width: auto !important;
+        margin-top: 10px;
+    }
+
+    .popover {
+        max-width: 800px;
+        height: 800px;
+    }
+
+
+    #searchGridMobile {
+        display: none;
+    }
+
+    #searchGridDeskTop {
+        visibility: visible;
+    }
+
+    .conferenceDropDownMobile {
+        display: visible;
+    }
+
+    .conferenceTextBoxMobile {
+        display: none;
+    }
+
+    .conferenceLabelMobile {
+        display: none;
+    }
+
+    .CalendarMobile {
+        display: none;
+    }
+
+    .CalendarDesktop {
+        visibility: visible;
+    }
+
+    .mediumFont {
+        font-size: smaller;
+    }
+
+    .smallFont {
+        font-size: small;
+    }
+
+    .smallestFont {
+        font-size: small;
+    }
+
+    .mainBodyBold {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        font-weight: bold;
+        line-height: 15px;
+        color: black;
+    }
+
+    .dropDownWidth {
+        width: 460px !important;
+    }
+
+    #yearAndMonth {
+        visibility: hidden;
+    }
+
+    .upcomingContent {
+        line-height: 20px;
+    }
+
+    .rlbList {
+        line-height: 10px;
+        margin: 0px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    #DetailsBody {
+        margin-left: 20px;
+        padding-left: 30px;
+        margin-top: 18px;
+        width: 800px;
+    }
+
+    .mainBodyBold {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+
+    .upcomingLink {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        color: darkblue !important;
+        text-decoration: underline !important;
+    }
+
+    .showOriginalHeader {
+        display: none;
+    }
+
+    .showHeader {
+        visibility: visible;
+    }
+
+    .btn-R17Blue {
+        background-color: #11347d !important;
+        color: white;
+    }
+
+        .btn-R17Blue:hover {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+        .btn-R17Blue:focus {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+    .btn-R17Grey {
+        background-color: #11347d !important;
+        color: white;
+    }
+
+        .btn-R17Grey:hover {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+        .btn-R17Grey:focus {
+            background-color: #11347d !important;
+            color: white !important;
+            text-decoration: underline;
+        }
+
+    .RadGrid_Outlook .rgPagerCell .rgNumPart a.rgCurrentPage {
+        color: black !important;
+        background-color: white !important;
+    }
+
+    span {
+        color: black !important;
+    }
+
+    span.welcomeMsg {
+        color: white !important;
+    }
+
+        span.mainBodyBold {
+            color: darkred !important;
+        }
+
+    #ctl00_mainBody_lblTPESS {
+        font-size: 14px !important;
+    }
+
+    .mainBodySmall {
+        font-size: 14px !important;
+    }
+
+    th {
+        font-size: 14px !important;
+    }
+
+    td {
+        font-size: 14px !important;
+    }
+
+    a.calendarlink {
+        font-size: 12px !important;
+    }
+
+    .breakoutheader {
+        font-size:20px !important;
+    }
+
+    #headerFont {
+        color: white !important;
+    }
+
+    span.CalendarTimeText {
+        padding-right: 20px !important;
+    }
+}

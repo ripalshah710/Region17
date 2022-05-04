@@ -1,0 +1,108 @@
+/* CONTENT BLOCK EDITOR STYLES
+----------------------------------------------------------*/
+/* GLOBAL NESTED STYLES ACROSS ALL CB */
+.StandardCBStyle {font-family:'Open Sans', Helvetica, Arial, sans-serif;}
+.StandardCBStyle p, .normalPara p {margin: 0; padding: 0;}
+
+.StandardCBStyle a {color: #0000EE; text-decoration: underline;}
+.StandardCBStyle a:hover {color: #1E7C9A;}
+
+/* STANDARD CB */
+.StandardCBStyle, .StandardCBStyle .normalPara p, .StandardCBStyle .normalPara, .StandardCBStyle p {font-size: 16px; color: #333333; font-weight: 400;}
+
+.StandardCBStyle h3, .StandardCBStyle h4, .StandardCBStyle h5, .StandardCBStyle h6 {margin: 0; padding: 0; line-height: 1.7em; font-weight: 700;}
+.StandardCBStyle h3 {font-size: 1.3em;}
+.StandardCBStyle h4 {font-size: 1.2em;}
+.StandardCBStyle h5 {font-size: 1.1em;}
+.StandardCBStyle h6 {font-size: 1em;}
+
+.StandardCBStyle ul {margin: 10px 0 10px 10px; padding: 0 0 0 0; font-size: 16px;}
+.StandardCBStyle ul li  {margin:8px 0 15px 6px; padding: 0 25px 0 2px;}
+
+.StandardCBStyle ol {margin: 10px 0 10px 0; padding: 0 0 0 0; font-size: 16px;}
+.StandardCBStyle ol li  {margin:8px 0 15px 30px; padding:0 25px 0 2px; zoom:1;}
+
+.StandardCBStyle hr {background-color: #9A9A9A; border: none; height: 1px;}
+.StandardCBStyle blockquote {font-size: 18px; color: #666666; background-color: #f4f4f4; line-height: 1.9em; margin: 24px 0 24px 0; padding: 25px 35px 35px 35px; box-shadow: 0 0 10px #999; border: 4px solid #fff;}
+.StandardCBStyle table {border-collapse: collapse; border-color: #f4f4f4; }
+.StandardCBStyle table thead {background-color: #808080; border-collapse: collapse; border-color: #808080; color: #ffffff;}
+.StandardCBStyle table thead td, .StandardCBStyle table thead th td  {border-color: #cccccc;}
+.StandardCBStyle caption {caption-side:bottom; text-align: left; font-size: .75em;}
+
+.StandardCBStyle .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+    z-index: 4000;
+    }
+ 
+.StandardCBStyle .video-container iframe,
+.StandardCBStyle .video-container object,
+.StandardCBStyle .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    }
+
+/* HOME CB */
+.HomeCBStyle {font-family:'Open Sans', Helvetica, Arial, sans-serif;}
+.HomeCBStyle p {margin: 0; padding: 0;}
+
+.HomeCBStyle a {color: #0000EE; text-decoration: underline;}
+.HomeCBStyle a:hover {color: #1E7C9A;} 
+.HomeCBStyle, .HomeCBStyle .normalPara p, .HomeCBStyle .normalPara, .HomeCBStyle p {font-size: 14px; line-height: 1.8em; color: #333333; font-weight: 400;}
+    
+/* LOAD FONTS 
+----------------------------------------------------*/
+@font-face {
+	font-family: 'df-icomoon';
+	src:url('/Themes/Default/Content/fonts/df-icomoon.eot?a9yoq0');
+	src:url('/Themes/Default/Content/fonts/df-icomoon.eot?#iefixa9yoq0') format('embedded-opentype'),
+		url('/Themes/Default/Content/fonts/df-icomoon.woff?a9yoq0') format('woff'),
+		url('/Themes/Default/Content/fonts/df-icomoon.ttf?a9yoq0') format('truetype'),
+		url('/Themes/Default/Content/fonts/df-icomoon.svg?a9yoq0#df-icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* PROJECT FONTS */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/PfybUH-csLekLIU-pU-o7w.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSvk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(https://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hvk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+

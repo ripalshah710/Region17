@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<escWorksMenu id="1">
+  <items>
+    <item item_id="1" sort="1" name="Home" tooltip="Link: Home Page" href="default.aspx" target="_top" visible="True" />
+    <item item_id="2" sort="2" name="Search Types" tooltip="Search Types" href="" target="_top" visible="True">
+      <items>
+        <item item_id="14" sort="89" name="Search by Keyword" tooltip="Link: Keyword Search Professional Development Catalog" href="search.aspx" target="_top" visible="True" />
+        <item item_id="15" sort="92" name="Calendar of Sessions" tooltip="Link: Calendar of Sessions" href="catalog/calendar.aspx" target="_top" visible="True" />
+        <item item_id="16" sort="99" name="Event Detail" tooltip="--" href="catalog/event.aspx" target="_top" visible="False" />
+        <item item_id="17" sort="99" name="Shopping Cart" tooltip="--" href="catalog/register/cart.aspx" target="_top" visible="False" />
+        <item item_id="18" sort="99" name="Session Detail" tooltip="--" href="catalog/session.aspx" target="_top" visible="False" />
+        <item item_id="19" sort="99" name="Conferences" tooltip="Link: Conferences" href="catalog/results.aspx?cmd=conference" target="_top" visible="True" />
+      </items>
+    </item>
+
+    <!--<item item_id="21" sort="21" name="Generate Password" tooltip="Link: Maps" href="GeneratePassword.aspx" target="_top" visible="True" />-->
+    <item item_id="3" sort="3" name="User Account Information" tooltip="User Account Information" href="" target="_top" visible="True">
+      <items>
+        <item item_id="20" sort="90" name="Professional Development Record" tooltip="Link: Professional Development Record" href="shoebox/transcripts/default.aspx" target="_top" visible="True">
+          <items>
+            <item item_id="26" sort="99" name="Personal Record" tooltip="--" href="shoebox/transcripts/personal.aspx" target="_top" visible="False" />
+          </items>
+        </item>
+        <item item_id="21" sort="91" name="My Account" tooltip="Link: Manage your User Profile" href="shoebox/account/default.aspx" target="_top" visible="True">
+          <items>
+            <item item_id="27" sort="99" name="Manage Email" tooltip="--" href="shoebox/account/email.aspx" target="_top" visible="False" />
+            <item item_id="28" sort="99" name="Manage Password" tooltip="--" href="shoebox/account/password.aspx" target="_top" visible="False" />
+          </items>
+        </item>
+        <item item_id="22" sort="92" name="Registration History/Certificates" tooltip="Link: Manage your Registration History" href="shoebox/registration/default.aspx" target="_top" visible="True">
+          <items>
+            <item item_id="29" sort="99" name="Change Registration" tooltip="--" href="shoebox/registration/change.aspx" target="_top" visible="False" />
+            <item item_id="30" sort="99" name="Cancel Registration" tooltip="--" href="shoebox/registration/cancel.aspx" target="_top" visible="False" />
+            <item item_id="31" sort="99" name="My Calendar" tooltip="--" href="shoebox/mycalendar/default.aspx" target="_top" visible="False" />
+          </items>
+        </item>
+        <item item_id="24" sort="93" name="Subscriptions" tooltip="Link: Subscriptions" href="shoebox/subscriptions/default.aspx" target="_top" visible="True" />
+        <item item_id="25" sort="93" name="Accountability" tooltip="Link: Accountability" href="accountability/default.aspx" target="_top" visible="True">
+          <roles>
+            <role>Accountability</role>
+          </roles>
+        </item>
+      </items>
+    </item>
+    
+    
+     <item item_id="4" sort="4" name="Approval of Hours" tooltip="Link: Approval of Hours" href="accountability/approvehours.aspx" target="_top" visible="True">
+      <roles>
+        <role>Supervisor</role>
+      </roles>
+    </item>
+    <item item_id="5" sort="5" name="Batch Invoicing" tooltip="Link: Batch Invoicing" href="barcode/PaymentID.aspx" target="_top" visible="True">
+      <roles>
+        <role>BatchInvoice</role>
+      </roles>
+    </item>
+	<item item_id="9" sort="7" name="Help &amp; How-To" tooltip="Link: Help &amp; How-To" href="help.aspx" target="_top" visible="True"/>
+	<item item_id="6" sort="9" name="Contact Us" tooltip="Link: Contact Us" href="about/contact.aspx" target="_top" visible="True" />
+    <item item_id="7" sort="8" name="Dashboard" tooltip="Link: Superintendent Dashboard" href="http://www.escweb.net/districtdashboard/?cid=tx_r17&amp;uid=|sid|" target="_blank" visible="True">
+      <roles>
+        <role>DashBoardSI</role>
+      </roles>
+    </item>
+    <item item_id="8" sort="8" name="Evaluation Manager" tooltip="Link: Evaluation Manager" href="evalManager/default.aspx" target="_top" visible="True">
+      <roles>
+        <role>evalAdmin</role>
+      </roles>
+    </item>
+
+     <item item_id="10" sort="10" name="Instructor" tooltip="Link: Instructor Area" href="instructor/default.aspx" target="_top" visible="True">
+      <roles>
+        <role>Instructor</role>
+      </roles>
+    </item>
+    <item item_id="11" sort="11" name="Maps/Directions" tooltip="Link: Maps" href="http://esc17.net/default.aspx?name=admin.mapcity" target="_top" visible="True" />   
+    
+    <item item_id="12" sort="12" name="Principal DashBoard" tooltip="Link: Principal DashBoard" href="https://www.escweb.net/PrincipalDashboard/?cid=tx_r17&amp;uid=|sid|" target="_blank" visible="True">
+      <roles>
+        <role>DashBoardPrincipal</role>
+      </roles>
+    </item>
+    <item item_id="13" sort="13" name="Texas Dashboard" tooltip="Link: Texas Dashboard" href="Dashboard/SSOSignin.aspx" target="_blank" visible="True">
+      <roles>
+        <role>TexasDashboard</role>
+      </roles>
+    </item>
+    <item item_id="45" sort="99" name="Executive Dashboard" tooltip="Link: Executive Dashboard" href="Dashboard/ExecSSOSignin.aspx" target="_blank" visible="True">
+      <roles>
+        <role>ExecutiveDashboard</role>
+      </roles>
+    </item>
+  </items>
+</escWorksMenu>

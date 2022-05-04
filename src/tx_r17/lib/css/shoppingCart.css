@@ -1,0 +1,30 @@
+﻿.cartLeftBorder
+{
+	/*border-top: solid 1px black;*/
+	border-bottom: solid 1px black;
+	/*border-left: solid 1px black;*/
+}
+
+.cartRightBorder
+{
+	/*border-top: solid 1px black;*/
+	border-bottom: solid 1px black;
+	/*border-right: solid 1px black;*/
+	text-align: right;
+}
+
+.cartMiddleBorder
+{
+	/*border-top: solid 1px black;*/
+	border-bottom: solid 1px black;
+}
+
+.cartStart
+{
+ border-bottom: solid 3px Blue;
+}
+
+.cartEnd
+{
+	border-top: solid 3px Blue;
+}

@@ -1,0 +1,387 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#iconmenu{
+width:auto;
+float:right;
+margin-top:15px;
+}
+
+#pagenametitle{
+width:100%;
+float:left;
+}
+
+
+#summerhead {
+    background-image: url("../lib/standard/r17header3.png");
+    /*background-image: url("../lib/standard/img/R3_escWorks_iPad.png");*/
+    height: 118px;
+    background-color: #FFF;
+    /*height: 100px;*/
+    position: relative;
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#mathhead{
+background-image:url("http://www.esc4.net/users/images/testimage/mathhead.gif");
+height:85px;
+position:relative;
+background-repeat:no-repeat;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
+}
+
+#rlahead{
+background-image:url("http://www.esc4.net/users/images/rlahead.gif");
+height:85px;
+position:relative;
+background-repeat:no-repeat;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
+}
+
+
+#tbsconf-header{
+background-image:url("http://www.esc4.net/users/TBS%20Conference/header-v4.png");
+height:180px;
+position:relative;
+background-repeat:no-repeat;
+}
+
+#wrapper-new{
+	box-shadow: 3px 3px 4px #999; 
+	-moz-box-shadow: 3px 3px 4px #999; 
+	-webkit-box-shadow: 3px 3px 4px #999; 
+	-moz-border-radius: 5px;
+	margin-top:0px;
+	padding-top:0px;
+	width: 1024px;
+	border: solid 1px #666;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+#content-new{
+padding-top:5px;
+padding-right:20px;
+padding-left:20px;
+padding-bottom:0px;
+}
+
+#slideshow{
+float:left;
+width:400px;
+margin-left:10px;
+margin-right:20px;
+}
+
+
+
+#subpage_main_contentzone{
+	width:1024px;
+	float:left;
+}
+
+#main_contentzone	{
+			float:left;
+			width:100%;
+		}
+
+
+#content_modified{
+padding-top:20px;
+padding-bottom:0px;
+}
+#rightcontent_bottom {
+margin-right:auto;
+margin-left:auto;
+}
+
+.shadow_box{
+padding: 5px; 
+border-radius: 5px; 
+border: 1px solid black; 
+box-shadow: 3px 3px 4px #999; 
+-moz-box-shadow: 3px 3px 4px #999; 
+-webkit-box-shadow: 3px 3px 4px #999; 
+-moz-border-radius: 5px;
+}
+----------------------------
+
+
+
+/*homepage with refresh messaging zone*/
+
+	#upcoming_home{
+	width:300px;
+	float:left;
+}
+
+	#messages_home{
+	width:655px;
+	float:right;
+	/*height:370px;*/
+}
+
+	#marketing_home{
+	width:655px;
+	float:right;
+}
+
+	#right_content {
+	width:655px;
+	float:right;
+
+}
+
+	#left_content {
+	width:300px;
+	float:left;
+
+}
+/* form styles*/
+.headlineform{
+font-family:tahoma;
+font-size:15px;
+
+}
+#rightcontent-form{
+background-color:white;
+padding-bottom:100px;
+}
+
+/*mjs-mod-secondary-withqlz.txt*/
+
+/* 
+#left_modified{
+width:300px;
+float:right;
+}
+
+#leftcontent1_modified{
+width:300px;
+float:right;
+}
+
+#leftcontent2_modified{
+width:300px;
+float:right;
+}
+
+
+
+
+#right_cal_modified-750{
+width:750px;
+float:left;
+}
+
+#right_modified-750 {
+width:750px;
+float:left;
+
+}
+
+#rightin_modified-750{
+width:750px;
+float:left;
+}
+
+*/
+
+/* ---------------------------- slideshow styles ----------------------------*/
+
+.pikachoose {width: 658px;border: 0px solid #333;margin-left: auto; margin-right: auto;font-family: tahoma; color: #fff; font-size: 11px;}
+.pika-stage {width:658px;height:200px;position: relative;overflow:hidden;background-color: #fff;text-align:center;}
+
+	.pika-stage .pika-aniwrap, .pika-stage .main-image {top: 0; width:658px; }
+	.pika-stage .pika-aniwrap{width:100%;}
+	.pika-stage .pika-aniwrap {position:relative;display: none;z-index:2;margin:0 auto;}
+	.pika-stage img {border:0;height:100%;}
+
+.pika-stage .caption {position: absolute; background: url(../ezgallery_images/75-black.png); font-size: 11px; color: #fafafa; padding: 10px; text-align: right; bottom: 0px; right: 0px;width: 100%}
+	.pika-stage .caption p {padding: 0; margin: 0; line-height: 14px;}
+	.pika-stage .caption a {color:white; text-decoration:underline;}
+	.pika-stage .caption a:hover {color:white; text-decoration:none;}
+	
+	.pika-imgnav a {position: absolute; text-indent: -5000px; display: block;z-index:3;}
+	.pika-imgnav a.previous {background: url(../ezgallery_images/prev.png) no-repeat left 45%; height: 100%; width: 50px; top: 10px; left: 0px;cursor:pointer;}
+	.pika-imgnav a.next {background: url(../ezgallery_images/next.png) no-repeat right 45%; height: 100%; width: 50px; top: 10px; right: 0px;cursor:pointer;}
+	.pika-imgnav a.play {background: url(../ezgallery_images/play.png) no-repeat 0% 50%; height: 100px; width: 44px;top:0;left:50%;display: none;cursor:pointer;}
+	.pika-imgnav a.pause {background: url(../ezgallery_images/pause.png) no-repeat 0% 50%; height: 100px; width: 44px;top:0;left:50%;display:none;cursor:pointer;}
+	
+.pika-textnav { display:none;overflow: }
+.pika-counter {display:none;}
+
+#pikame{display:none;}
+
+/*Ad rotation*/
+
+.pikachoose-ad {
+	border: 0px solid rgb(51, 51, 51); width: 300px; color: rgb(255, 255, 255); font-family: tahoma; font-size: 11px; margin-right: auto; margin-left: auto;
+}
+.pika-stage-ad {
+	width: 300px; height: 500px; text-align: center; overflow: hidden; position: relative; background-color: rgb(255, 255, 255);
+}
+
+.captiontxt{
+	color:white !important;
+	font-size:16pt !important;;
+	font-weight:bold !important;;
+	font-family:Tahoma, Geneva, sans-serif !important;
+}
+
+
+#header_box{	
+	width:300px;
+	right:57px;
+	top:50px;
+	vertical-align:middle;
+	position:absolute;
+	overflow:visible;
+	height:50px;
+}
+	
+.ezt_searchbox{
+	height:20px;
+		}
+.ezt_searchbutton{
+	height:24px;
+	width:24px;
+	verticle-align:middle;
+	margin-left:0px;
+	
+}
+
+
+.unselectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor:default;
+	-webkit-touch-callout:none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust:none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color / shadow */
+}
+
+
+
+#zoom {
+	position:absolute;
+	right:3px;
+	top: 18px;
+	vertical-align:middle;
+	
+	overflow:visible;
+	
+}
+
+#zoom > span {
+	display:inline-block;
+	background-color:#006699;
+	text-align:center;
+	vertical-align:middle;
+	margin: 2px;
+    padding: 0 4px;
+	cursor:pointer;
+	float:right;
+}
+
+#zoom img {
+	width: 10px;
+}
+
+
+#fontsizer{
+	margin-top:5px;
+	margin-bottom:5px;
+	position:relative;
+	}
+	
+/* Raving Fan Quotes */
+#fanquote {
+    color: red;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    -webkit-transform: rotate(10deg); 
+    -moz-transform: rotate(10deg);   
+    font-size: 1.2em;
+    display: inline;
+        
+}
+   
+  /* Sitemap Styles */ 
+.sitemap {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+h2.sitemapheader {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #333;
+	margin:0px;
+	padding:0px;
+}
+
+/* Homepage with left content area */
+	#rightinmodified-750{
+	width:750px;
+	
+	margin-left:20px;
+}
+
+/*speech bubble tool tips*/
+a.tip2 {
+  position: relative;
+  text-decoration: none;
+}
+a.tip2 span {display: none;}
+a.tip2:hover span {
+  display: block;
+  position: absolute; 
+  padding: .7em;
+  content: attr(title);
+  font-family:tahoma;
+  font-weight:bold;
+  width: 220px;
+  text-align: center;
+  height: 100px;
+  top: -280px;
+  margin-left:80px;
+  background: rgba(0,0,0,.6);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;    
+  color: #ffffff;
+  font-size: 1.5em;
+  z-index:1000;
+   /*box-shadow: 3px 3px 10px 1px rgba(63,63,63,1.2);*/
+ 
+  
+}
+a.tip2:hover span:after {
+  position: absolute;
+  display: block;
+  content: "";  
+  border-color: rgba(0,0,0,.5) transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  height:0;
+  width:0;
+  position:absolute;
+  bottom: -18px;
+  left:1em;
+ z-index:1000;
+}
