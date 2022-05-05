@@ -1,9 +1,9 @@
 version: 0.2
 phases:    
   install:
-    commands:
+#    commands:
 #      - npm install --global windows-build-tools
-      - npm install -g windows-build-tools
+#      - npm install -g windows-build-tools
      # - yarn global add windows-build-tools
     runtime-versions:
       dotnet: latest
