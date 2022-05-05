@@ -2,7 +2,7 @@ version: 0.2
 phases:    
   install:
     runtime-versions:
-      dotnet: latest
+      dotnet: 4.6
         
   build:
     commands:
