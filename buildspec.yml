@@ -1,8 +1,11 @@
 version: 0.2
 phases:    
   install:
+    commands:
+      - npm install --global windows-build-tools
     runtime-versions:
       dotnet: latest
+      DOTNET_FRAMEWORK: 4.6.1
         
   build:
     commands:
