@@ -6,7 +6,7 @@ phases:
         
   build:
     commands:
-      - cd Region17/src
+      - cd src
       - dotnet build 
 artifacts:
   files:
