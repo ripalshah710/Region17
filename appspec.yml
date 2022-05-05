@@ -3,7 +3,7 @@ Resources:
   - myLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "netcoreAPILambda"
+        Name: "dotnet-Region17"
         Alias: "myLambdaFunctionAlias"
         CurrentVersion: "1"
         TargetVersion: "2"

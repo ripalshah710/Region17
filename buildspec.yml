@@ -1,0 +1,14 @@
+version: 0.2
+phases:    
+  install:
+    runtime-versions:
+      dotnet: latest
+        
+  build:
+    commands:
+      - cd Region17/src
+      - dotnet build 
+artifacts:
+  files:
+#    - '**/*'
+     - appspec.yml
