@@ -2,6 +2,8 @@ version: 0.2
 phases:    
   install:
     commands:
+      - sudo apt-get install snapd
+      - sudo snap install notes
       - sudo snap install --classic code
       - sudo apt update
       - sudo apt install software-properties-common apt-transport-https wget
