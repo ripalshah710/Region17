@@ -2,7 +2,7 @@ version: 0.2
 phases:    
   install:
     commands:
-      - sudp apt update
+      - sudo apt update
       - sudo apt install snapd snapd-xdg-open
       - sudo snap install --classic code
       - sudo apt install software-properties-common apt-transport-https wget
