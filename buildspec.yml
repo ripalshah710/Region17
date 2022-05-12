@@ -1,10 +1,16 @@
 version: 0.2
 phases:    
   install:
-#    commands:
-    runtime-versions:
-      dotnet: latest
-      
+    commands:
+      - Invoke-WebRequest -OutFile WebDeploy_amd64_en-US.msi https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_amd64_en-US.msi
+      - msiexec /i WebDeploy_amd64_en-US.msi /quiet
+      - Start-Sleep 30
+
+#    runtime-versions:
+ #     dotnet: latest
+  pre_build:
+    commands:
+      - nuget restore      
   build:
     commands:
       - cd src
