@@ -8,9 +8,9 @@ phases:
 
 #    runtime-versions:
  #     dotnet: latest
-  pre_build:
-    commands:
-      - nuget restore      
+#pre_build:
+ #   commands:
+  #    - nuget restore      
   build:
     commands:
       - cd src
