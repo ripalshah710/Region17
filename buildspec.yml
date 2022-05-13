@@ -6,11 +6,11 @@ phases:
       - msiexec /i WebDeploy_amd64_en-US.msi /quiet
       - Start-Sleep 30
 
-#    runtime-versions:
- #     dotnet: latest
-#pre_build:
- #   commands:
-  #    - nuget restore      
+    runtime-versions:
+      dotnet: 4.7.2
+pre_build:
+    commands:
+      - nuget restore      
   build:
     commands:
       - cd src
